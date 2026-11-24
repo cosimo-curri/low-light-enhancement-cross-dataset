@@ -1,0 +1,18 @@
+\begin{table}[t]
+	\centering
+	\caption{Dataset split sizes used in the pipeline. The first row reports the main dataset, while LOL-v2 Synthetic, MILLs, and ExDark are independent external evaluation datasets. LOL-v1 (overlap) is retained as a non-independent descriptive control and is excluded from independent cross-dataset conclusions. Counts refer to samples, i.e., low-light input images. For paired datasets, each input sample is associated with a corresponding target image.}
+	\label{tab:dataset_splits}
+	\begin{tabular}{lccc}
+		\toprule
+		Dataset & Train & Validation & Test \\
+		\midrule
+		LOL-v2 Real & 620 & 69 & 100 \\
+		\midrule
+		LOL-v2 Synthetic & 810 & 90 & 100 \\
+		MILLs & -- & -- & 499 \\
+		ExDark & -- & -- & 7363 \\
+		\midrule
+		LOL-v1 (overlap) & -- & -- & 500 \\
+		\bottomrule
+	\end{tabular}
+\end{table}

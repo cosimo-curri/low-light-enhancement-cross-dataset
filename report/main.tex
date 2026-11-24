@@ -1,0 +1,42 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage[pagenumbers]{cvpr}
+
+\input{preamble}
+
+\definecolor{cvprblue}{rgb}{0.21,0.49,0.74}
+\usepackage[pagebackref,breaklinks,colorlinks,allcolors=cvprblue]{hyperref}
+
+\def\paperID{}
+\def\confName{Deep Learning}
+\def\confYear{2026}
+
+\title{Low-Light Image Enhancement with Cross-Dataset Generalization}
+
+\author{
+	Cosimo Curri\\
+	Politecnico di Bari\\
+	Bari, Italy
+}
+
+\begin{document}
+	\maketitle
+
+	\input{sec/abstract}
+	\input{sec/introduction}
+	\input{sec/datasets_and_splits}
+	\input{sec/experimental_protocol}
+	\input{sec/end_to_end_pipeline}
+	\input{sec/unet_family}
+	\input{sec/illumination_guided_unet_family}
+	\input{sec/fac_ecl_family}
+	\input{sec/ecl_far_family}
+	\input{sec/inter_family_analysis}
+	\input{sec/conclusion}
+
+	{
+	    \small
+	    \bibliographystyle{ieeenat_fullname}
+	    \bibliography{main}
+	}
+\end{document}

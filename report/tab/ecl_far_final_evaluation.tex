@@ -1,0 +1,20 @@
+\begin{table*}[t]
+	\centering
+	\caption{Final evaluation of the selected ECL-FAR configuration. The first row reports the held-out in-domain evaluation, the following three rows report independent external evaluation results, and LOL-v1 (overlap) is reported for descriptive transparency only and is excluded from independent cross-dataset conclusions. Values are reported as mean $\pm$ standard deviation across three seeds. Full-reference metrics are not available for ExDark because it is unpaired.}
+	\label{tab:ecl_far_final_evaluation}
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{lccccccccccc}
+			\toprule
+			Dataset & SSIM & PSNR (dB) & MAE & NIQE & BRISQUE & Mean $Y$ & Std $Y$ & Dark (\%) & Clip (\%) & RGBI & Lap. sharp. \\
+			\midrule
+			LOL-v2 Real & $0.851 \pm 0.004$ & $19.62 \pm 0.27$ & $0.102 \pm 0.004$ & $6.68 \pm 0.28$ & $27.42 \pm 1.65$ & $0.453 \pm 0.005$ & $0.169 \pm 0.002$ & $1.7 \pm 0.3$ & $0.20 \pm 0.07$ & $0.044 \pm 0.002$ & $0.0095 \pm 0.0005$ \\
+			\midrule
+			LOL-v2 Synthetic & $0.747 \pm 0.012$ & $16.63 \pm 0.34$ & $0.137 \pm 0.008$ & $7.06 \pm 0.18$ & $34.07 \pm 1.22$ & $0.420 \pm 0.016$ & $0.234 \pm 0.004$ & $9.0 \pm 3.1$ & $0.44 \pm 0.19$ & $0.058 \pm 0.009$ & $0.0092 \pm 0.0003$ \\
+			MILLs & $0.780 \pm 0.007$ & $18.03 \pm 0.21$ & $0.121 \pm 0.003$ & $6.05 \pm 0.14$ & $24.24 \pm 1.88$ & $0.437 \pm 0.005$ & $0.147 \pm 0.001$ & $2.9 \pm 0.5$ & $0.00 \pm 0.00$ & $0.128 \pm 0.017$ & $0.0056 \pm 0.0001$ \\
+			ExDark & -- & -- & -- & $6.82 \pm 0.11$ & $35.00 \pm 1.47$ & $0.385 \pm 0.006$ & $0.220 \pm 0.001$ & $9.5 \pm 2.9$ & $0.66 \pm 0.15$ & $0.099 \pm 0.006$ & $0.0079 \pm 0.0003$ \\
+			\midrule
+			LOL-v1 (overlap) & $0.887 \pm 0.003$ & $22.20 \pm 0.32$ & $0.075 \pm 0.002$ & $6.84 \pm 0.30$ & $29.40 \pm 1.53$ & $0.469 \pm 0.005$ & $0.181 \pm 0.001$ & $2.8 \pm 0.3$ & $0.10 \pm 0.03$ & $0.058 \pm 0.002$ & $0.0088 \pm 0.0005$ \\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table*}

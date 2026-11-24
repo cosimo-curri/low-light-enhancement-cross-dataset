@@ -1,0 +1,38 @@
+\begin{table*}[t]
+	\centering
+	\caption{Inter-family quantitative summary for the selected configuration of each model family. The first block reports held-out in-domain performance on LOL-v2 Real; the following three blocks report independent external evaluation on LOL-v2 Synthetic, MILLs, and ExDark. LOL-v1 (overlap) is reported separately for descriptive transparency only and is excluded from independent cross-dataset conclusions. Values are reported as mean $\pm$ standard deviation across three seeds. Bold values mark the best score for each metric among the four families within the corresponding dataset.}
+	\label{tab:inter_family_summary}
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{llcccc}
+			\toprule
+			Dataset & Metric & U-Net & Illumination-guided U-Net & FAC-ECL & ECL-FAR \\
+			\midrule
+			\multirow{3}{*}{LOL-v2 Real}
+			& SSIM & $0.849 \pm 0.003$ & $0.841 \pm 0.013$ & $0.851 \pm 0.007$ & $\mathbf{0.851 \pm 0.004}$ \\
+			& PSNR (dB) & $19.54 \pm 0.37$ & $19.00 \pm 0.96$ & $\mathbf{19.85 \pm 0.39}$ & $19.62 \pm 0.27$ \\
+			& MAE & $0.105 \pm 0.003$ & $0.112 \pm 0.012$ & $\mathbf{0.101 \pm 0.004}$ & $0.102 \pm 0.004$ \\
+			\midrule
+			\multirow{3}{*}{LOL-v2 Synthetic}
+			& SSIM & $\mathbf{0.766 \pm 0.006}$ & $0.761 \pm 0.015$ & $0.763 \pm 0.004$ & $0.747 \pm 0.012$ \\
+			& PSNR (dB) & $17.14 \pm 0.08$ & $17.29 \pm 0.39$ & $\mathbf{17.32 \pm 0.08}$ & $16.63 \pm 0.34$ \\
+			& MAE & $0.129 \pm 0.001$ & $0.127 \pm 0.007$ & $\mathbf{0.126 \pm 0.002}$ & $0.137 \pm 0.008$ \\
+			\midrule
+			\multirow{3}{*}{MILLs}
+			& SSIM & $0.755 \pm 0.005$ & $0.744 \pm 0.031$ & $0.777 \pm 0.010$ & $\mathbf{0.780 \pm 0.007}$ \\
+			& PSNR (dB) & $17.17 \pm 0.15$ & $16.72 \pm 0.91$ & $18.00 \pm 0.22$ & $\mathbf{18.03 \pm 0.21}$ \\
+			& MAE & $0.132 \pm 0.004$ & $0.144 \pm 0.018$ & $\mathbf{0.119 \pm 0.004}$ & $0.121 \pm 0.003$ \\
+			\midrule
+			\multirow{4}{*}{ExDark}
+			& NIQE & $6.89 \pm 0.29$ & $6.94 \pm 0.05$ & $7.01 \pm 0.08$ & $\mathbf{6.82 \pm 0.11}$ \\
+			& BRISQUE & $\mathbf{33.37 \pm 1.30}$ & $33.85 \pm 0.91$ & $34.83 \pm 2.96$ & $35.00 \pm 1.47$ \\
+			& Dark (\%) & $5.1 \pm 2.2$ & $\mathbf{3.4 \pm 2.6}$ & $4.4 \pm 1.0$ & $9.5 \pm 2.9$ \\
+			& RGBI & $\mathbf{0.070 \pm 0.001}$ & $0.078 \pm 0.009$ & $0.073 \pm 0.002$ & $0.099 \pm 0.006$ \\
+			\midrule
+			\multirow{3}{*}{LOL-v1 (overlap)}
+			& SSIM & $0.884 \pm 0.003$ & $0.882 \pm 0.009$ & $0.886 \pm 0.004$ & $\mathbf{0.887 \pm 0.003}$ \\
+			& PSNR (dB) & $22.10 \pm 0.31$ & $22.15 \pm 0.67$ & $22.13 \pm 0.41$ & $\mathbf{22.20 \pm 0.32}$ \\
+			& MAE & $0.077 \pm 0.003$ & $0.076 \pm 0.007$ & $0.076 \pm 0.004$ & $\mathbf{0.075 \pm 0.002}$ \\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table*}

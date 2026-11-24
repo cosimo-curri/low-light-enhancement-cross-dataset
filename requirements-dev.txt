@@ -1,0 +1,2 @@
+# Development-only test dependency (not part of the historical training environment).
+pytest==9.0.2

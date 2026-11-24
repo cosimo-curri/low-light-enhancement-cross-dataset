@@ -1,0 +1,3028 @@
+[
+  {
+    "failure_type": "residual_darkness",
+    "rank": 1,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/515.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/515.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 1.0,
+    "score_components": {
+      "high_dark_pixel_ratio": 1.0,
+      "low_mean_luminance": 1.0
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.005182902018229167,
+      "mean_brisque": 14.568379720052084,
+      "mean_dark_pixel_ratio": 0.4949239095052083,
+      "mean_laplacian_sharpness": 0.009001359033087889,
+      "mean_luminance_std": 0.23272499442100525,
+      "mean_mae": 0.056665387004613876,
+      "mean_mean_luminance": 0.2509088416894277,
+      "mean_niqe": 5.943401018778483,
+      "mean_psnr": 21.439650853474934,
+      "mean_rgb_channel_imbalance": 0.09659066796302795,
+      "mean_ssim": 0.6992208162943522
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.002703878662393351,
+      "std_brisque": 2.4150645492119986,
+      "std_dark_pixel_ratio": 0.011838788254711324,
+      "std_laplacian_sharpness": 0.0017336509726406327,
+      "std_luminance_std": 0.01282807704298585,
+      "std_mae": 0.002490732002209911,
+      "std_mean_luminance": 0.013511882696470075,
+      "std_niqe": 0.28028212694902765,
+      "std_psnr": 0.5258558734563371,
+      "std_rgb_channel_imbalance": 0.008837458740478305,
+      "std_ssim": 0.004518151752042036
+    }
+  },
+  {
+    "failure_type": "residual_darkness",
+    "rank": 2,
+    "dataset": "mill_s",
+    "input_path": "data/preprocessed/mill_s/test/input/test20-1.png",
+    "target_path": "data/preprocessed/mill_s/test/gt/test20.png",
+    "category": "",
+    "illumination_level": "1",
+    "candidate_score": 1.0,
+    "score_components": {
+      "high_dark_pixel_ratio": 1.0,
+      "low_mean_luminance": 1.0
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 26.503763834635418,
+      "mean_dark_pixel_ratio": 0.3219655354817708,
+      "mean_laplacian_sharpness": 0.008381879422813654,
+      "mean_luminance_std": 0.2322818636894226,
+      "mean_mae": 0.13401199380556741,
+      "mean_mean_luminance": 0.28902098536491394,
+      "mean_niqe": 6.163549423217773,
+      "mean_psnr": 16.051260948181152,
+      "mean_rgb_channel_imbalance": 0.0804738054672877,
+      "mean_ssim": 0.46978508432706195
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 3.601431435319277,
+      "std_dark_pixel_ratio": 0.03478648295827398,
+      "std_laplacian_sharpness": 0.0008446860809505813,
+      "std_luminance_std": 0.006862795242664692,
+      "std_mae": 0.006005059914256846,
+      "std_mean_luminance": 0.018760147742988353,
+      "std_niqe": 0.7109208849658624,
+      "std_psnr": 0.5413786717775506,
+      "std_rgb_channel_imbalance": 0.004876235359737045,
+      "std_ssim": 0.005751546561554178
+    }
+  },
+  {
+    "failure_type": "residual_darkness",
+    "rank": 3,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/car/2015_02457.png",
+    "target_path": "",
+    "category": "car",
+    "illumination_level": "",
+    "candidate_score": 0.9997826677533279,
+    "score_components": {
+      "high_dark_pixel_ratio": 0.9997283346916599,
+      "low_mean_luminance": 0.99986416734583
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.034978230794270836,
+      "mean_brisque": 63.385355631510414,
+      "mean_dark_pixel_ratio": 0.5897064208984375,
+      "mean_laplacian_sharpness": 0.002164565259590745,
+      "mean_luminance_std": 0.20684478183587393,
+      "mean_mean_luminance": 0.17695514857769012,
+      "mean_niqe": 18.077831904093426,
+      "mean_rgb_channel_imbalance": 0.10712256282567978
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.037139906160994184,
+      "std_brisque": 13.227131347080427,
+      "std_dark_pixel_ratio": 0.22654229723533773,
+      "std_laplacian_sharpness": 0.0001856460948862584,
+      "std_luminance_std": 0.02592758903178851,
+      "std_mean_luminance": 0.007622379037211531,
+      "std_niqe": 0.3421324881918007,
+      "std_rgb_channel_imbalance": 0.023014345841281637
+    }
+  },
+  {
+    "failure_type": "residual_darkness",
+    "rank": 4,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/dog/2015_05025.png",
+    "target_path": "",
+    "category": "dog",
+    "illumination_level": "",
+    "candidate_score": 0.9996740016299919,
+    "score_components": {
+      "high_dark_pixel_ratio": 1.0,
+      "low_mean_luminance": 0.9991850040749797
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.015635172526041668,
+      "mean_brisque": 50.42938232421875,
+      "mean_dark_pixel_ratio": 0.6871897379557291,
+      "mean_laplacian_sharpness": 0.0022561762404317656,
+      "mean_luminance_std": 0.21064758797486624,
+      "mean_mean_luminance": 0.1876525084177653,
+      "mean_niqe": 13.542056719462076,
+      "mean_rgb_channel_imbalance": 0.09472228586673737
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.011299278400870942,
+      "std_brisque": 7.870059715484321,
+      "std_dark_pixel_ratio": 0.027671747003345792,
+      "std_laplacian_sharpness": 0.0003971530944259685,
+      "std_luminance_std": 0.013833873731227988,
+      "std_mean_luminance": 0.014350585370474008,
+      "std_niqe": 1.2529038655919382,
+      "std_rgb_channel_imbalance": 0.023907338759839483
+    }
+  },
+  {
+    "failure_type": "residual_darkness",
+    "rank": 5,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/car/2015_02518.png",
+    "target_path": "",
+    "category": "car",
+    "illumination_level": "",
+    "candidate_score": 0.9988318391741374,
+    "score_components": {
+      "high_dark_pixel_ratio": 0.99986416734583,
+      "low_mean_luminance": 0.9972833469165987
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.031926472981770836,
+      "mean_brisque": 56.38006591796875,
+      "mean_dark_pixel_ratio": 0.6309814453125,
+      "mean_laplacian_sharpness": 0.003960208967328072,
+      "mean_luminance_std": 0.213557759920756,
+      "mean_mean_luminance": 0.20133189857006073,
+      "mean_niqe": 24.814473470052082,
+      "mean_rgb_channel_imbalance": 0.13389553129673004
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.017120173198824546,
+      "std_brisque": 12.718867263909463,
+      "std_dark_pixel_ratio": 0.06766904457493159,
+      "std_laplacian_sharpness": 0.0008611702831107938,
+      "std_luminance_std": 0.026290592351463703,
+      "std_mean_luminance": 0.010267788446267948,
+      "std_niqe": 2.4775849448005705,
+      "std_rgb_channel_imbalance": 0.02017406235515543
+    }
+  },
+  {
+    "failure_type": "residual_darkness",
+    "rank": 6,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cat/2015_03662.png",
+    "target_path": "",
+    "category": "cat",
+    "illumination_level": "",
+    "candidate_score": 0.998071176310785,
+    "score_components": {
+      "high_dark_pixel_ratio": 0.9990491714208095,
+      "low_mean_luminance": 0.9966041836457484
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.000579833984375,
+      "mean_brisque": 30.994893391927082,
+      "mean_dark_pixel_ratio": 0.49359130859375,
+      "mean_laplacian_sharpness": 0.0020923217525705695,
+      "mean_luminance_std": 0.19107062617937723,
+      "mean_mean_luminance": 0.20391117533047995,
+      "mean_niqe": 5.44351069132487,
+      "mean_rgb_channel_imbalance": 0.13232492407162985
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0007786469007673995,
+      "std_brisque": 0.4632264755144545,
+      "std_dark_pixel_ratio": 0.050609295195004,
+      "std_laplacian_sharpness": 0.00014101810779302732,
+      "std_luminance_std": 0.004547557301910649,
+      "std_mean_luminance": 0.023779626819902807,
+      "std_niqe": 0.48126875976432193,
+      "std_rgb_channel_imbalance": 0.026084655996400485
+    }
+  },
+  {
+    "failure_type": "residual_darkness",
+    "rank": 7,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/512.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/512.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.997995991983968,
+    "score_components": {
+      "high_dark_pixel_ratio": 0.9979959919839679,
+      "low_mean_luminance": 0.9979959919839679
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.001434326171875,
+      "mean_brisque": 28.255716959635418,
+      "mean_dark_pixel_ratio": 0.4187571207682292,
+      "mean_laplacian_sharpness": 0.0050521438630918665,
+      "mean_luminance_std": 0.2472481628259023,
+      "mean_mae": 0.04535801957050959,
+      "mean_mean_luminance": 0.2726678053538005,
+      "mean_niqe": 5.024857044219971,
+      "mean_psnr": 24.152372360229492,
+      "mean_rgb_channel_imbalance": 0.10838623344898224,
+      "mean_ssim": 0.7833025852839152
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.001499093516945207,
+      "std_brisque": 2.7224261689720337,
+      "std_dark_pixel_ratio": 0.013071130920943115,
+      "std_laplacian_sharpness": 0.0008395905076585137,
+      "std_luminance_std": 0.010572441859978209,
+      "std_mae": 0.0033560221480905188,
+      "std_mean_luminance": 0.015832419935135157,
+      "std_niqe": 0.4003567836543238,
+      "std_psnr": 0.37553254821268317,
+      "std_rgb_channel_imbalance": 0.0018549794703501016,
+      "std_ssim": 0.017343941453611383
+    }
+  },
+  {
+    "failure_type": "residual_darkness",
+    "rank": 8,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/bottle/2015_01839.png",
+    "target_path": "",
+    "category": "bottle",
+    "illumination_level": "",
+    "candidate_score": 0.9976636783482749,
+    "score_components": {
+      "high_dark_pixel_ratio": 0.9986416734582994,
+      "low_mean_luminance": 0.9961966856832383
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.004582722981770833,
+      "mean_brisque": 54.717061360677086,
+      "mean_dark_pixel_ratio": 0.4868977864583333,
+      "mean_laplacian_sharpness": 0.006528691699107488,
+      "mean_luminance_std": 0.2229494502147039,
+      "mean_mean_luminance": 0.20537819961706796,
+      "mean_niqe": 11.609939893086752,
+      "mean_rgb_channel_imbalance": 0.08707967400550842
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0027366600252835428,
+      "std_brisque": 0.9354605532052858,
+      "std_dark_pixel_ratio": 0.3781072714184107,
+      "std_laplacian_sharpness": 0.0010169333071082926,
+      "std_luminance_std": 0.004476222799999319,
+      "std_mean_luminance": 0.03018232359269904,
+      "std_niqe": 1.0880713771548867,
+      "std_rgb_channel_imbalance": 0.027924753949502532
+    }
+  },
+  {
+    "failure_type": "residual_darkness",
+    "rank": 9,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/dog/2015_05599.png",
+    "target_path": "",
+    "category": "dog",
+    "illumination_level": "",
+    "candidate_score": 0.9969301820157566,
+    "score_components": {
+      "high_dark_pixel_ratio": 0.9966041836457484,
+      "low_mean_luminance": 0.9974191795707689
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.02386474609375,
+      "mean_brisque": 61.729024251302086,
+      "mean_dark_pixel_ratio": 0.4425506591796875,
+      "mean_laplacian_sharpness": 0.0023580286651849747,
+      "mean_luminance_std": 0.2249209632476171,
+      "mean_mean_luminance": 0.20112932721773782,
+      "mean_niqe": 8.197446505228678,
+      "mean_rgb_channel_imbalance": 0.10772795975208282
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.020260379707667187,
+      "std_brisque": 12.208535027817906,
+      "std_dark_pixel_ratio": 0.14976663768353302,
+      "std_laplacian_sharpness": 0.00034534722589739245,
+      "std_luminance_std": 0.019285646621075982,
+      "std_mean_luminance": 0.014230443142140208,
+      "std_niqe": 0.8271537374266623,
+      "std_rgb_channel_imbalance": 0.02289621873351753
+    }
+  },
+  {
+    "failure_type": "residual_darkness",
+    "rank": 10,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/dog/2015_05280.png",
+    "target_path": "",
+    "category": "dog",
+    "illumination_level": "",
+    "candidate_score": 0.9963868513990763,
+    "score_components": {
+      "high_dark_pixel_ratio": 0.9995925020374898,
+      "low_mean_luminance": 0.9915783754414561
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.013376871744791666,
+      "mean_brisque": 46.809102376302086,
+      "mean_dark_pixel_ratio": 0.52886962890625,
+      "mean_laplacian_sharpness": 0.005191694013774395,
+      "mean_luminance_std": 0.24577282865842184,
+      "mean_mean_luminance": 0.22140121956666312,
+      "mean_niqe": 8.151312987009684,
+      "mean_rgb_channel_imbalance": 0.05953321854273478
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0018627184065082183,
+      "std_brisque": 12.49647508591676,
+      "std_dark_pixel_ratio": 0.05680099138864145,
+      "std_laplacian_sharpness": 0.0004275582037055469,
+      "std_luminance_std": 0.005127899940081508,
+      "std_mean_luminance": 0.01382715347874499,
+      "std_niqe": 1.6576866414997535,
+      "std_rgb_channel_imbalance": 0.0031901355680972595
+    }
+  },
+  {
+    "failure_type": "over_exposure",
+    "rank": 1,
+    "dataset": "mill_s",
+    "input_path": "data/preprocessed/mill_s/train/input/scene1_a-1.png",
+    "target_path": "data/preprocessed/mill_s/train/gt/scene1_a.png",
+    "category": "",
+    "illumination_level": "1",
+    "candidate_score": 0.982730923694779,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9959839357429718,
+      "high_mean_luminance": 0.9518072289156626
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 8.646647135416667e-05,
+      "mean_brisque": 28.67718505859375,
+      "mean_dark_pixel_ratio": 0.041234334309895836,
+      "mean_laplacian_sharpness": 0.008009090553969145,
+      "mean_luminance_std": 0.15369356671969095,
+      "mean_mae": 0.05247761681675911,
+      "mean_mean_luminance": 0.5047961672147115,
+      "mean_niqe": 5.962025324503581,
+      "mean_psnr": 22.147939046223957,
+      "mean_rgb_channel_imbalance": 0.10764025648434956,
+      "mean_ssim": 0.8644053737322489
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 7.526981906610484e-05,
+      "std_brisque": 5.731869459423033,
+      "std_dark_pixel_ratio": 0.004038259017414754,
+      "std_laplacian_sharpness": 0.0005485900615153267,
+      "std_luminance_std": 0.0076984589549926605,
+      "std_mae": 0.004191441302071015,
+      "std_mean_luminance": 0.006193643148695494,
+      "std_niqe": 0.7633808254329904,
+      "std_psnr": 0.3887729574234742,
+      "std_rgb_channel_imbalance": 0.014947394690053377,
+      "std_ssim": 0.009970501438817498
+    }
+  },
+  {
+    "failure_type": "over_exposure",
+    "rank": 2,
+    "dataset": "mill_s",
+    "input_path": "data/preprocessed/mill_s/train/input/scene5-1.png",
+    "target_path": "data/preprocessed/mill_s/train/gt/scene5.png",
+    "category": "",
+    "illumination_level": "1",
+    "candidate_score": 0.9710843373493976,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9759036144578314,
+      "high_mean_luminance": 0.9598393574297188
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 5.086263020833333e-06,
+      "mean_brisque": 36.502217610677086,
+      "mean_dark_pixel_ratio": 0.032979329427083336,
+      "mean_laplacian_sharpness": 0.005546448131402333,
+      "mean_luminance_std": 0.13085042933622995,
+      "mean_mae": 0.08850111812353134,
+      "mean_mean_luminance": 0.506277859210968,
+      "mean_niqe": 9.664978981018066,
+      "mean_psnr": 19.686384836832683,
+      "mean_rgb_channel_imbalance": 0.08590035637219746,
+      "mean_ssim": 0.8798039158185323
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 8.809665972742092e-06,
+      "std_brisque": 5.830990689335909,
+      "std_dark_pixel_ratio": 0.006009838936083456,
+      "std_laplacian_sharpness": 0.0002981750176276892,
+      "std_luminance_std": 0.007174185760943844,
+      "std_mae": 0.003544168830540319,
+      "std_mean_luminance": 0.005002640784763884,
+      "std_niqe": 0.5063948321929106,
+      "std_psnr": 0.4283609315525789,
+      "std_rgb_channel_imbalance": 0.021389947845402504,
+      "std_ssim": 0.007741279934738836
+    }
+  },
+  {
+    "failure_type": "over_exposure",
+    "rank": 3,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cup/2015_04712.png",
+    "target_path": "",
+    "category": "cup",
+    "illumination_level": "",
+    "candidate_score": 0.9595897853844064,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9842434121162728,
+      "high_mean_luminance": 0.902064656343385
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.030705769856770832,
+      "mean_brisque": 41.36834716796875,
+      "mean_dark_pixel_ratio": 5.0862630208333336e-05,
+      "mean_laplacian_sharpness": 0.006330548009524743,
+      "mean_luminance_std": 0.1489961196978887,
+      "mean_mean_luminance": 0.4650620023409526,
+      "mean_niqe": 6.662981351216634,
+      "mean_rgb_channel_imbalance": 0.19197863340377808
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.010401417826280134,
+      "std_brisque": 4.417038392072618,
+      "std_dark_pixel_ratio": 8.809665972742092e-05,
+      "std_laplacian_sharpness": 0.0008622939820738532,
+      "std_luminance_std": 0.004251327762378987,
+      "std_mean_luminance": 0.014860022817570224,
+      "std_niqe": 0.24379070343966389,
+      "std_rgb_channel_imbalance": 0.009394812961051695
+    }
+  },
+  {
+    "failure_type": "over_exposure",
+    "rank": 4,
+    "dataset": "mill_s",
+    "input_path": "data/preprocessed/mill_s/validation/input/val4-1.png",
+    "target_path": "data/preprocessed/mill_s/validation/gt/val4.png",
+    "category": "",
+    "illumination_level": "1",
+    "candidate_score": 0.959437751004016,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9859437751004017,
+      "high_mean_luminance": 0.8975903614457831
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 3.0517578125e-05,
+      "mean_brisque": 24.813496907552082,
+      "mean_dark_pixel_ratio": 0.057871500651041664,
+      "mean_laplacian_sharpness": 0.004929557132224242,
+      "mean_luminance_std": 0.17913417021433511,
+      "mean_mae": 0.1620026777187983,
+      "mean_mean_luminance": 0.49376721183458966,
+      "mean_niqe": 5.811694304148356,
+      "mean_psnr": 14.702120463053385,
+      "mean_rgb_channel_imbalance": 0.1610607107480367,
+      "mean_ssim": 0.6347600817680359
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 1.52587890625e-05,
+      "std_brisque": 2.756295295625713,
+      "std_dark_pixel_ratio": 0.0042829475680289004,
+      "std_laplacian_sharpness": 0.0002574421749022586,
+      "std_luminance_std": 0.00045243666872442654,
+      "std_mae": 0.006903761035541915,
+      "std_mean_luminance": 0.008526496039978099,
+      "std_niqe": 0.3831582805781451,
+      "std_psnr": 0.3592607669069,
+      "std_rgb_channel_imbalance": 0.013092658176273963,
+      "std_ssim": 0.011084522354173568
+    }
+  },
+  {
+    "failure_type": "over_exposure",
+    "rank": 5,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/table/2015_06883.png",
+    "target_path": "",
+    "category": "table",
+    "illumination_level": "",
+    "candidate_score": 0.9483700081499593,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9767726161369193,
+      "high_mean_luminance": 0.8820972561803858
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.028605143229166668,
+      "mean_brisque": 52.576029459635414,
+      "mean_dark_pixel_ratio": 0.0012003580729166667,
+      "mean_laplacian_sharpness": 0.009220443510760864,
+      "mean_luminance_std": 0.17615783711274466,
+      "mean_mean_luminance": 0.45931902527809143,
+      "mean_niqe": 8.428421020507812,
+      "mean_rgb_channel_imbalance": 0.0713019073009491
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.01330350572538442,
+      "std_brisque": 3.369797408360931,
+      "std_dark_pixel_ratio": 0.002065880758511967,
+      "std_laplacian_sharpness": 0.0017071104996309045,
+      "std_luminance_std": 0.007921320564480661,
+      "std_mean_luminance": 0.02404094871711296,
+      "std_niqe": 0.1557331433507751,
+      "std_rgb_channel_imbalance": 0.006751156336328862
+    }
+  },
+  {
+    "failure_type": "over_exposure",
+    "rank": 6,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/chair/2015_04284.png",
+    "target_path": "",
+    "category": "chair",
+    "illumination_level": "",
+    "candidate_score": 0.9379108937788644,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9422711219777234,
+      "high_mean_luminance": 0.9277370279815268
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.023000081380208332,
+      "mean_brisque": 33.08514404296875,
+      "mean_dark_pixel_ratio": 0.014251708984375,
+      "mean_laplacian_sharpness": 0.005373353449006875,
+      "mean_luminance_std": 0.1885093698898951,
+      "mean_mean_luminance": 0.47403599818547565,
+      "mean_niqe": 7.565325736999512,
+      "mean_rgb_channel_imbalance": 0.028727680444717407
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.007209133274122258,
+      "std_brisque": 2.175628341698539,
+      "std_dark_pixel_ratio": 0.0039859917576804405,
+      "std_laplacian_sharpness": 0.00011495096104394437,
+      "std_luminance_std": 0.008502705352899416,
+      "std_mean_luminance": 0.022951979421635682,
+      "std_niqe": 0.17036104440106506,
+      "std_rgb_channel_imbalance": 0.001092533380492482
+    }
+  },
+  {
+    "failure_type": "over_exposure",
+    "rank": 7,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/142.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/142.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.9366733466933868,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9438877755511023,
+      "high_mean_luminance": 0.9198396793587175
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.004597981770833333,
+      "mean_brisque": 44.987569173177086,
+      "mean_dark_pixel_ratio": 0.0,
+      "mean_laplacian_sharpness": 0.004287343937903643,
+      "mean_luminance_std": 0.06289685020844142,
+      "mean_mae": 0.02443031283716361,
+      "mean_mean_luminance": 0.5387590328852335,
+      "mean_niqe": 9.440736293792725,
+      "mean_psnr": 27.81250762939453,
+      "mean_rgb_channel_imbalance": 0.04064218203226725,
+      "mean_ssim": 0.9367974003156027
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0042588790088635186,
+      "std_brisque": 11.284216193207923,
+      "std_dark_pixel_ratio": 0.0,
+      "std_laplacian_sharpness": 0.0003282524198652969,
+      "std_luminance_std": 0.011250262277905109,
+      "std_mae": 0.005192064556768759,
+      "std_mean_luminance": 0.015492034587484752,
+      "std_niqe": 1.9531285291121006,
+      "std_psnr": 2.0291034590543373,
+      "std_rgb_channel_imbalance": 0.020645460543810955,
+      "std_ssim": 0.005054579782800959
+    }
+  },
+  {
+    "failure_type": "over_exposure",
+    "rank": 8,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/180.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/180.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.9302605210420841,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9579158316633266,
+      "high_mean_luminance": 0.8657314629258517
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.00689697265625,
+      "mean_brisque": 29.50067138671875,
+      "mean_dark_pixel_ratio": 0.0,
+      "mean_laplacian_sharpness": 0.008557340285430351,
+      "mean_luminance_std": 0.11268605788548787,
+      "mean_mae": 0.031016193330287933,
+      "mean_mean_luminance": 0.5272963047027588,
+      "mean_niqe": 5.874157905578613,
+      "mean_psnr": 28.003895441691082,
+      "mean_rgb_channel_imbalance": 0.10302500923474629,
+      "mean_ssim": 0.9166553020477295
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0008252451954949926,
+      "std_brisque": 2.628777238647565,
+      "std_dark_pixel_ratio": 0.0,
+      "std_laplacian_sharpness": 0.0008240271252193416,
+      "std_luminance_std": 0.0025431792995401683,
+      "std_mae": 0.010090467892540133,
+      "std_mean_luminance": 0.021800990994002453,
+      "std_niqe": 0.4677262709702437,
+      "std_psnr": 1.8537836804374936,
+      "std_rgb_channel_imbalance": 0.00984630012021231,
+      "std_ssim": 0.0006909258842719091
+    }
+  },
+  {
+    "failure_type": "over_exposure",
+    "rank": 9,
+    "dataset": "mill_s",
+    "input_path": "data/preprocessed/mill_s/validation/input/test2-1.png",
+    "target_path": "data/preprocessed/mill_s/validation/gt/test2.png",
+    "category": "",
+    "illumination_level": "1",
+    "candidate_score": 0.929718875502008,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9899598393574297,
+      "high_mean_luminance": 0.7891566265060241
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 5.0862630208333336e-05,
+      "mean_brisque": 27.88543701171875,
+      "mean_dark_pixel_ratio": 0.0275421142578125,
+      "mean_laplacian_sharpness": 0.00822031544521451,
+      "mean_luminance_std": 0.19740422566731772,
+      "mean_mae": 0.15871495505174002,
+      "mean_mean_luminance": 0.478975772857666,
+      "mean_niqe": 4.308284759521484,
+      "mean_psnr": 14.88018544514974,
+      "mean_rgb_channel_imbalance": 0.11757986744244893,
+      "mean_ssim": 0.6712815960248312
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 2.3308185297423504e-05,
+      "std_brisque": 1.1341489077898428,
+      "std_dark_pixel_ratio": 0.01401894134711055,
+      "std_laplacian_sharpness": 0.0010454768199773118,
+      "std_luminance_std": 0.0012872749651190467,
+      "std_mae": 0.008081435683739214,
+      "std_mean_luminance": 0.007507791155845109,
+      "std_niqe": 0.2139457579594039,
+      "std_psnr": 0.4110166391694665,
+      "std_rgb_channel_imbalance": 0.011077261047757542,
+      "std_ssim": 0.012157591619690206
+    }
+  },
+  {
+    "failure_type": "over_exposure",
+    "rank": 10,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cat/2015_03574.png",
+    "target_path": "",
+    "category": "cat",
+    "illumination_level": "",
+    "candidate_score": 0.9178348274925292,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9273295300190165,
+      "high_mean_luminance": 0.895680521597392
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.021428426106770832,
+      "mean_brisque": 38.126566569010414,
+      "mean_dark_pixel_ratio": 0.013651529947916666,
+      "mean_laplacian_sharpness": 0.005072274710983038,
+      "mean_luminance_std": 0.15715061128139496,
+      "mean_mean_luminance": 0.4633925159772237,
+      "mean_niqe": 6.718292236328125,
+      "mean_rgb_channel_imbalance": 0.27246250708897907
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.018818302306224135,
+      "std_brisque": 2.130942623051899,
+      "std_dark_pixel_ratio": 0.003773623273026717,
+      "std_laplacian_sharpness": 0.0004743514419623227,
+      "std_luminance_std": 0.018769778067170697,
+      "std_mean_luminance": 0.017708745713590407,
+      "std_niqe": 0.3081361642406626,
+      "std_rgb_channel_imbalance": 0.017791391229844696
+    }
+  },
+  {
+    "failure_type": "color_cast",
+    "rank": 1,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cat/2015_03633.png",
+    "target_path": "",
+    "category": "cat",
+    "illumination_level": "",
+    "candidate_score": 1.0,
+    "score_components": {
+      "high_rgb_channel_imbalance": 1.0
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.000518798828125,
+      "mean_brisque": 38.80267333984375,
+      "mean_dark_pixel_ratio": 0.0,
+      "mean_laplacian_sharpness": 0.002643825796743234,
+      "mean_luminance_std": 0.10151199996471405,
+      "mean_mean_luminance": 0.49367932478586835,
+      "mean_niqe": 6.315408865610759,
+      "mean_rgb_channel_imbalance": 0.32051164905230206
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.00017597293998215937,
+      "std_brisque": 6.88104851988179,
+      "std_dark_pixel_ratio": 0.0,
+      "std_laplacian_sharpness": 0.0005951238528667206,
+      "std_luminance_std": 0.016648233827437506,
+      "std_mean_luminance": 0.057684437224932376,
+      "std_niqe": 0.19236189104706272,
+      "std_rgb_channel_imbalance": 0.053445032528264484
+    }
+  },
+  {
+    "failure_type": "color_cast",
+    "rank": 2,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/219.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/219.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 1.0,
+    "score_components": {
+      "high_rgb_channel_imbalance": 1.0
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 36.345560709635414,
+      "mean_dark_pixel_ratio": 0.00016276041666666666,
+      "mean_laplacian_sharpness": 0.004992959555238485,
+      "mean_luminance_std": 0.10671268900235494,
+      "mean_mae": 0.034515357886751495,
+      "mean_mean_luminance": 0.5250355005264282,
+      "mean_niqe": 7.033364931742351,
+      "mean_psnr": 27.846520105997723,
+      "mean_rgb_channel_imbalance": 0.199896107117335,
+      "mean_ssim": 0.9345394968986511
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 3.362065699985688,
+      "std_dark_pixel_ratio": 0.0002688031059107221,
+      "std_laplacian_sharpness": 0.0005567680703304812,
+      "std_luminance_std": 0.009270507795488936,
+      "std_mae": 0.011931308623104963,
+      "std_mean_luminance": 0.02264181812939008,
+      "std_niqe": 1.0341422310788424,
+      "std_psnr": 2.7700814607649247,
+      "std_rgb_channel_imbalance": 0.013992472171685612,
+      "std_ssim": 0.0006654115638397814
+    }
+  },
+  {
+    "failure_type": "color_cast",
+    "rank": 3,
+    "dataset": "lol_v2_real",
+    "input_path": "data/preprocessed/lol_v2_real/test/low/low00743.png",
+    "target_path": "data/preprocessed/lol_v2_real/test/normal/normal00743.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 1.0,
+    "score_components": {
+      "high_rgb_channel_imbalance": 1.0
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.00048828125,
+      "mean_brisque": 37.639506022135414,
+      "mean_dark_pixel_ratio": 0.0034332275390625,
+      "mean_laplacian_sharpness": 0.00612684494505326,
+      "mean_luminance_std": 0.11921267956495285,
+      "mean_mae": 0.17213371892770132,
+      "mean_mean_luminance": 0.5490583777427673,
+      "mean_niqe": 6.2507243156433105,
+      "mean_psnr": 14.945928255716959,
+      "mean_rgb_channel_imbalance": 0.18119576573371887,
+      "mean_ssim": 0.8386622865994772
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 2.6428997918226276e-05,
+      "std_brisque": 2.961095250472708,
+      "std_dark_pixel_ratio": 0.0024176394434006787,
+      "std_laplacian_sharpness": 0.0003255349073991603,
+      "std_luminance_std": 0.0011299370549935676,
+      "std_mae": 0.008747112309041868,
+      "std_mean_luminance": 0.011628987854049175,
+      "std_niqe": 0.7427933774410933,
+      "std_psnr": 0.43293669597613255,
+      "std_rgb_channel_imbalance": 0.01675431693323328,
+      "std_ssim": 0.006621420380055228
+    }
+  },
+  {
+    "failure_type": "color_cast",
+    "rank": 4,
+    "dataset": "lol_v2_synthetic",
+    "input_path": "data/preprocessed/lol_v2_synthetic/test/low/r16654024t.png",
+    "target_path": "data/preprocessed/lol_v2_synthetic/test/normal/r16654024t.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 1.0,
+    "score_components": {
+      "high_rgb_channel_imbalance": 1.0
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0017242431640625,
+      "mean_brisque": 31.585469563802082,
+      "mean_dark_pixel_ratio": 0.09344482421875,
+      "mean_laplacian_sharpness": 0.005085788667201996,
+      "mean_luminance_std": 0.17566067477067313,
+      "mean_mae": 0.10410312563180923,
+      "mean_mean_luminance": 0.3393353919188182,
+      "mean_niqe": 6.963109811147054,
+      "mean_psnr": 17.634440739949543,
+      "mean_rgb_channel_imbalance": 0.20883561174074808,
+      "mean_ssim": 0.723211407661438
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0021845662505342715,
+      "std_brisque": 1.5364537729314163,
+      "std_dark_pixel_ratio": 0.0269006306041997,
+      "std_laplacian_sharpness": 0.000201635511329441,
+      "std_luminance_std": 0.012819675554145996,
+      "std_mae": 0.003331200530395273,
+      "std_mean_luminance": 0.010780693246693018,
+      "std_niqe": 0.5007118347859042,
+      "std_psnr": 0.4110502832775797,
+      "std_rgb_channel_imbalance": 0.008462090266675654,
+      "std_ssim": 0.005662220535243025
+    }
+  },
+  {
+    "failure_type": "color_cast",
+    "rank": 5,
+    "dataset": "mill_s",
+    "input_path": "data/preprocessed/mill_s/validation/input/val4-4.png",
+    "target_path": "data/preprocessed/mill_s/validation/gt/val4.png",
+    "category": "",
+    "illumination_level": "4",
+    "candidate_score": 1.0,
+    "score_components": {
+      "high_rgb_channel_imbalance": 1.0
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 26.443868001302082,
+      "mean_dark_pixel_ratio": 0.005716959635416667,
+      "mean_laplacian_sharpness": 0.003874493141969045,
+      "mean_luminance_std": 0.13013576964537302,
+      "mean_mae": 0.11704449355602264,
+      "mean_mean_luminance": 0.47026657064755756,
+      "mean_niqe": 6.540373166402181,
+      "mean_psnr": 17.90270741780599,
+      "mean_rgb_channel_imbalance": 0.2170100212097168,
+      "mean_ssim": 0.7890832622845968
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 0.9377107171502472,
+      "std_dark_pixel_ratio": 0.0007489770562418606,
+      "std_laplacian_sharpness": 0.00041910569868774955,
+      "std_luminance_std": 0.0049487950758075085,
+      "std_mae": 0.0156481450849057,
+      "std_mean_luminance": 0.024632641660897993,
+      "std_niqe": 0.3331935919365707,
+      "std_psnr": 1.0449727767018815,
+      "std_rgb_channel_imbalance": 0.026611712411138477,
+      "std_ssim": 0.02551049608008555
+    }
+  },
+  {
+    "failure_type": "color_cast",
+    "rank": 6,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cat/2015_03587.png",
+    "target_path": "",
+    "category": "cat",
+    "illumination_level": "",
+    "candidate_score": 0.99986416734583,
+    "score_components": {
+      "high_rgb_channel_imbalance": 0.99986416734583
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0002288818359375,
+      "mean_brisque": 26.820332845052082,
+      "mean_dark_pixel_ratio": 1.52587890625e-05,
+      "mean_laplacian_sharpness": 0.004033877979964018,
+      "mean_luminance_std": 0.08687690645456314,
+      "mean_mean_luminance": 0.5520535707473755,
+      "mean_niqe": 5.67347526550293,
+      "mean_rgb_channel_imbalance": 0.3156200349330902
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 5.285799583645255e-05,
+      "std_brisque": 3.4979670728664485,
+      "std_dark_pixel_ratio": 2.6428997918226276e-05,
+      "std_laplacian_sharpness": 0.0007947850487426325,
+      "std_luminance_std": 0.020690038218025526,
+      "std_mean_luminance": 0.022814330106637026,
+      "std_niqe": 0.41154024979468873,
+      "std_rgb_channel_imbalance": 0.0207062654296591
+    }
+  },
+  {
+    "failure_type": "color_cast",
+    "rank": 7,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/dog/2015_05428.png",
+    "target_path": "",
+    "category": "dog",
+    "illumination_level": "",
+    "candidate_score": 0.9997283346916599,
+    "score_components": {
+      "high_rgb_channel_imbalance": 0.9997283346916599
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 56.784281412760414,
+      "mean_dark_pixel_ratio": 0.0008443196614583334,
+      "mean_laplacian_sharpness": 0.0027474993839859962,
+      "mean_luminance_std": 0.16959999004999796,
+      "mean_mean_luminance": 0.4593855142593384,
+      "mean_niqe": 8.215877532958984,
+      "mean_rgb_channel_imbalance": 0.3042035897572835
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 2.052798724171588,
+      "std_dark_pixel_ratio": 0.0014098768794074312,
+      "std_laplacian_sharpness": 0.0005935726532824449,
+      "std_luminance_std": 0.02459686987133182,
+      "std_mean_luminance": 0.04555795543111039,
+      "std_niqe": 0.2497849150529964,
+      "std_rgb_channel_imbalance": 0.019431836807961515
+    }
+  },
+  {
+    "failure_type": "color_cast",
+    "rank": 8,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cup/2015_04610.png",
+    "target_path": "",
+    "category": "cup",
+    "illumination_level": "",
+    "candidate_score": 0.9995925020374898,
+    "score_components": {
+      "high_rgb_channel_imbalance": 0.9995925020374898
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.003992716471354167,
+      "mean_brisque": 30.957132975260418,
+      "mean_dark_pixel_ratio": 0.018254597981770832,
+      "mean_laplacian_sharpness": 0.0036805533648778996,
+      "mean_luminance_std": 0.1641477793455124,
+      "mean_mean_luminance": 0.45616306861241657,
+      "mean_niqe": 9.28740660349528,
+      "mean_rgb_channel_imbalance": 0.2905518611272176
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0011685018205380951,
+      "std_brisque": 1.424471953360399,
+      "std_dark_pixel_ratio": 0.030151129089733268,
+      "std_laplacian_sharpness": 0.00035275945158008465,
+      "std_luminance_std": 0.022308168424240705,
+      "std_mean_luminance": 0.038210793553497935,
+      "std_niqe": 1.1286408451807326,
+      "std_rgb_channel_imbalance": 0.01492390298944669
+    }
+  },
+  {
+    "failure_type": "color_cast",
+    "rank": 9,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/bicycle/2015_00012.png",
+    "target_path": "",
+    "category": "bicycle",
+    "illumination_level": "",
+    "candidate_score": 0.9994566693833198,
+    "score_components": {
+      "high_rgb_channel_imbalance": 0.9994566693833198
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0008087158203125,
+      "mean_brisque": 32.988138834635414,
+      "mean_dark_pixel_ratio": 0.0001220703125,
+      "mean_laplacian_sharpness": 0.005374022914717595,
+      "mean_luminance_std": 0.14559698601563772,
+      "mean_mean_luminance": 0.3978816668192546,
+      "mean_niqe": 5.232280095418294,
+      "mean_rgb_channel_imbalance": 0.2847859561443329
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0006366774305732747,
+      "std_brisque": 3.4806071324208645,
+      "std_dark_pixel_ratio": 0.0001000585712326355,
+      "std_laplacian_sharpness": 0.0006385683472763944,
+      "std_luminance_std": 0.023204107667269134,
+      "std_mean_luminance": 0.0329901649739669,
+      "std_niqe": 0.33178222613942926,
+      "std_rgb_channel_imbalance": 0.02480161494864254
+    }
+  },
+  {
+    "failure_type": "color_cast",
+    "rank": 10,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cup/2015_04696.png",
+    "target_path": "",
+    "category": "cup",
+    "illumination_level": "",
+    "candidate_score": 0.9993208367291497,
+    "score_components": {
+      "high_rgb_channel_imbalance": 0.9993208367291497
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 43.024027506510414,
+      "mean_dark_pixel_ratio": 0.009409586588541666,
+      "mean_laplacian_sharpness": 0.003858991820986072,
+      "mean_luminance_std": 0.15965038041273752,
+      "mean_mean_luminance": 0.5237869024276733,
+      "mean_niqe": 7.665689150492351,
+      "mean_rgb_channel_imbalance": 0.2824353079001109
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 0.7016664565335984,
+      "std_dark_pixel_ratio": 0.0034111613649108335,
+      "std_laplacian_sharpness": 0.0002787098732057285,
+      "std_luminance_std": 0.0024688776630844567,
+      "std_mean_luminance": 0.008727875204083774,
+      "std_niqe": 0.5872035613794521,
+      "std_rgb_channel_imbalance": 0.010511217660210475
+    }
+  },
+  {
+    "failure_type": "over_smoothing",
+    "rank": 1,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/764.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/764.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.9975951903807615,
+    "score_components": {
+      "low_laplacian_sharpness": 1.0,
+      "low_luminance_std": 0.9939879759519038
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 11.965596516927084,
+      "mean_dark_pixel_ratio": 0.004913330078125,
+      "mean_laplacian_sharpness": 0.0027511903705696263,
+      "mean_luminance_std": 0.07958134015401204,
+      "mean_mae": 0.21100490788618723,
+      "mean_mean_luminance": 0.46323885520299274,
+      "mean_niqe": 10.653605143229166,
+      "mean_psnr": 13.379858016967773,
+      "mean_rgb_channel_imbalance": 0.03583362698554993,
+      "mean_ssim": 0.7322127421696981
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 11.99964014729059,
+      "std_dark_pixel_ratio": 0.0018466917548952853,
+      "std_laplacian_sharpness": 0.000380095268666419,
+      "std_luminance_std": 0.0022686581465070662,
+      "std_mae": 0.027438373743801734,
+      "std_mean_luminance": 0.026066641006124564,
+      "std_niqe": 1.2571215587319824,
+      "std_psnr": 1.0606159888422895,
+      "std_rgb_channel_imbalance": 0.007630930915436467,
+      "std_ssim": 0.03865590334635705
+    }
+  },
+  {
+    "failure_type": "over_smoothing",
+    "rank": 2,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/763.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/763.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.9971943887775552,
+    "score_components": {
+      "low_laplacian_sharpness": 0.9979959919839679,
+      "low_luminance_std": 0.9959919839679359
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 6.013203938802083,
+      "mean_dark_pixel_ratio": 0.0048828125,
+      "mean_laplacian_sharpness": 0.003038297329718868,
+      "mean_luminance_std": 0.07800797869761784,
+      "mean_mae": 0.20475654800732931,
+      "mean_mean_luminance": 0.45965197682380676,
+      "mean_niqe": 10.464659690856934,
+      "mean_psnr": 13.633067766825357,
+      "mean_rgb_channel_imbalance": 0.02404835820198059,
+      "mean_ssim": 0.7384471893310547
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 3.6060885154670372,
+      "std_dark_pixel_ratio": 0.002425763561657287,
+      "std_laplacian_sharpness": 0.0005421266385181815,
+      "std_luminance_std": 0.008960611599561132,
+      "std_mae": 0.03270553455163926,
+      "std_mean_luminance": 0.032311350833979,
+      "std_niqe": 1.7639439387108298,
+      "std_psnr": 1.2275263547474933,
+      "std_rgb_channel_imbalance": 0.010851361185475555,
+      "std_ssim": 0.03527651886321736
+    }
+  },
+  {
+    "failure_type": "over_smoothing",
+    "rank": 3,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/141.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/141.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.9963927855711423,
+    "score_components": {
+      "low_laplacian_sharpness": 0.9939879759519038,
+      "low_luminance_std": 1.0
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0025634765625,
+      "mean_brisque": 32.918802897135414,
+      "mean_dark_pixel_ratio": 0.0,
+      "mean_laplacian_sharpness": 0.0038050773243109384,
+      "mean_luminance_std": 0.05795858552058538,
+      "mean_mae": 0.1226830060283343,
+      "mean_mean_luminance": 0.4825025002161662,
+      "mean_niqe": 7.926074663798015,
+      "mean_psnr": 17.512320518493652,
+      "mean_rgb_channel_imbalance": 0.08353516459465027,
+      "mean_ssim": 0.8866277734438578
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0031080022110532264,
+      "std_brisque": 13.020327826287625,
+      "std_dark_pixel_ratio": 0.0,
+      "std_laplacian_sharpness": 0.0006651445067013056,
+      "std_luminance_std": 0.01447810818688018,
+      "std_mae": 0.043585643874271,
+      "std_mean_luminance": 0.050983827131913136,
+      "std_niqe": 0.9611303258825152,
+      "std_psnr": 2.7022014911898458,
+      "std_rgb_channel_imbalance": 0.0320021149500205,
+      "std_ssim": 0.01277687404252499
+    }
+  },
+  {
+    "failure_type": "over_smoothing",
+    "rank": 4,
+    "dataset": "lol_v2_real",
+    "input_path": "data/preprocessed/lol_v2_real/test/low/low00764.png",
+    "target_path": "data/preprocessed/lol_v2_real/test/normal/normal00764.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.9959595959595959,
+    "score_components": {
+      "low_laplacian_sharpness": 1.0,
+      "low_luminance_std": 0.98989898989899
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 11.965596516927084,
+      "mean_dark_pixel_ratio": 0.004913330078125,
+      "mean_laplacian_sharpness": 0.0027511903705696263,
+      "mean_luminance_std": 0.07958134015401204,
+      "mean_mae": 0.21100490788618723,
+      "mean_mean_luminance": 0.46323885520299274,
+      "mean_niqe": 10.653605143229166,
+      "mean_psnr": 13.379858016967773,
+      "mean_rgb_channel_imbalance": 0.03583362698554993,
+      "mean_ssim": 0.7322127421696981
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 11.99964014729059,
+      "std_dark_pixel_ratio": 0.0018466917548952853,
+      "std_laplacian_sharpness": 0.000380095268666419,
+      "std_luminance_std": 0.0022686581465070662,
+      "std_mae": 0.027438373743801734,
+      "std_mean_luminance": 0.026066641006124564,
+      "std_niqe": 1.2571215587319824,
+      "std_psnr": 1.0606159888422895,
+      "std_rgb_channel_imbalance": 0.007630930915436467,
+      "std_ssim": 0.03865590334635705
+    }
+  },
+  {
+    "failure_type": "over_smoothing",
+    "rank": 5,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/dog/2015_05343.png",
+    "target_path": "",
+    "category": "dog",
+    "illumination_level": "",
+    "candidate_score": 0.9958435207823961,
+    "score_components": {
+      "low_laplacian_sharpness": 0.993615865254007,
+      "low_luminance_std": 0.9991850040749797
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0001068115234375,
+      "mean_brisque": 45.861918131510414,
+      "mean_dark_pixel_ratio": 0.0,
+      "mean_laplacian_sharpness": 0.0020898710936307907,
+      "mean_luminance_std": 0.06523691366116206,
+      "mean_mean_luminance": 0.3810539444287618,
+      "mean_niqe": 10.580894470214844,
+      "mean_rgb_channel_imbalance": 0.07478989164034526
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 2.6428997918226276e-05,
+      "std_brisque": 3.6438569579394517,
+      "std_dark_pixel_ratio": 0.0,
+      "std_laplacian_sharpness": 0.00010090770184791414,
+      "std_luminance_std": 0.009285073744139352,
+      "std_mean_luminance": 0.00393874710577583,
+      "std_niqe": 3.0660398359606806,
+      "std_rgb_channel_imbalance": 0.05458020392325211
+    }
+  },
+  {
+    "failure_type": "over_smoothing",
+    "rank": 6,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/dog/2015_05549.png",
+    "target_path": "",
+    "category": "dog",
+    "illumination_level": "",
+    "candidate_score": 0.9957076881282261,
+    "score_components": {
+      "low_laplacian_sharpness": 0.9937516979081771,
+      "low_luminance_std": 0.9986416734582994
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 23.070170084635418,
+      "mean_dark_pixel_ratio": 0.0,
+      "mean_laplacian_sharpness": 0.002085240945840875,
+      "mean_luminance_std": 0.07632057617108028,
+      "mean_mean_luminance": 0.4018220901489258,
+      "mean_niqe": 5.533664703369141,
+      "mean_rgb_channel_imbalance": 0.04012378056844076
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 7.17385282788315,
+      "std_dark_pixel_ratio": 0.0,
+      "std_laplacian_sharpness": 0.00021616425630672045,
+      "std_luminance_std": 0.013525850170095877,
+      "std_mean_luminance": 0.02219265148291576,
+      "std_niqe": 0.14681115100884712,
+      "std_rgb_channel_imbalance": 0.0036086780631451945
+    }
+  },
+  {
+    "failure_type": "over_smoothing",
+    "rank": 7,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/boat/2015_01105.png",
+    "target_path": "",
+    "category": "boat",
+    "illumination_level": "",
+    "candidate_score": 0.9949198587340397,
+    "score_components": {
+      "low_laplacian_sharpness": 0.9944308611790275,
+      "low_luminance_std": 0.995653355066558
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 46.479512532552086,
+      "mean_dark_pixel_ratio": 0.002960205078125,
+      "mean_laplacian_sharpness": 0.00204092093432943,
+      "mean_luminance_std": 0.09377725919087727,
+      "mean_mean_luminance": 0.43427525957425434,
+      "mean_niqe": 10.470455328623453,
+      "mean_rgb_channel_imbalance": 0.15692436695098877
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 19.676637296297944,
+      "std_dark_pixel_ratio": 0.0006543512464108755,
+      "std_laplacian_sharpness": 0.0003657319792993123,
+      "std_luminance_std": 0.00866630831921725,
+      "std_mean_luminance": 0.022597959122440964,
+      "std_niqe": 3.416980726690399,
+      "std_rgb_channel_imbalance": 0.018687164185189106
+    }
+  },
+  {
+    "failure_type": "over_smoothing",
+    "rank": 8,
+    "dataset": "lol_v2_real",
+    "input_path": "data/preprocessed/lol_v2_real/test/low/low00763.png",
+    "target_path": "data/preprocessed/lol_v2_real/test/normal/normal00763.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.993939393939394,
+    "score_components": {
+      "low_laplacian_sharpness": 0.98989898989899,
+      "low_luminance_std": 1.0
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 6.013203938802083,
+      "mean_dark_pixel_ratio": 0.0048828125,
+      "mean_laplacian_sharpness": 0.003038297329718868,
+      "mean_luminance_std": 0.07800797869761784,
+      "mean_mae": 0.20475654800732931,
+      "mean_mean_luminance": 0.45965197682380676,
+      "mean_niqe": 10.464659690856934,
+      "mean_psnr": 13.633067766825357,
+      "mean_rgb_channel_imbalance": 0.02404835820198059,
+      "mean_ssim": 0.7384471893310547
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 3.6060885154670372,
+      "std_dark_pixel_ratio": 0.002425763561657287,
+      "std_laplacian_sharpness": 0.0005421266385181815,
+      "std_luminance_std": 0.008960611599561132,
+      "std_mae": 0.03270553455163926,
+      "std_mean_luminance": 0.032311350833979,
+      "std_niqe": 1.7639439387108298,
+      "std_psnr": 1.2275263547474933,
+      "std_rgb_channel_imbalance": 0.010851361185475555,
+      "std_ssim": 0.03527651886321736
+    }
+  },
+  {
+    "failure_type": "over_smoothing",
+    "rank": 9,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/car/2015_02520.png",
+    "target_path": "",
+    "category": "car",
+    "illumination_level": "",
+    "candidate_score": 0.9926378701439826,
+    "score_components": {
+      "low_laplacian_sharpness": 0.9938875305623471,
+      "low_luminance_std": 0.9907633795164358
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0114288330078125,
+      "mean_brisque": 56.031026204427086,
+      "mean_dark_pixel_ratio": 0.0149993896484375,
+      "mean_laplacian_sharpness": 0.002081247163005173,
+      "mean_luminance_std": 0.10781297087669373,
+      "mean_mean_luminance": 0.36807018518447876,
+      "mean_niqe": 23.57112185160319,
+      "mean_rgb_channel_imbalance": 0.08914210398991902
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0074079652994984676,
+      "std_brisque": 3.860109586214258,
+      "std_dark_pixel_ratio": 0.004311816290892406,
+      "std_laplacian_sharpness": 0.0003379245891213748,
+      "std_luminance_std": 0.004499303572854495,
+      "std_mean_luminance": 0.008950323254048723,
+      "std_niqe": 0.294545440183757,
+      "std_rgb_channel_imbalance": 0.01817426604278106
+    }
+  },
+  {
+    "failure_type": "over_smoothing",
+    "rank": 10,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cat/2015_03686.png",
+    "target_path": "",
+    "category": "cat",
+    "illumination_level": "",
+    "candidate_score": 0.9921488725889704,
+    "score_components": {
+      "low_laplacian_sharpness": 0.9995925020374898,
+      "low_luminance_std": 0.9809834284161912
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.006647745768229167,
+      "mean_brisque": 48.716166178385414,
+      "mean_dark_pixel_ratio": 0.1219482421875,
+      "mean_laplacian_sharpness": 0.0013010222076748808,
+      "mean_luminance_std": 0.1273828645547231,
+      "mean_mean_luminance": 0.24729411800702414,
+      "mean_niqe": 6.890357971191406,
+      "mean_rgb_channel_imbalance": 0.14570785065491995
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0067222946911318525,
+      "std_brisque": 14.744090739920537,
+      "std_dark_pixel_ratio": 0.10357241489789752,
+      "std_laplacian_sharpness": 0.00034502097449504035,
+      "std_luminance_std": 0.017928293488385767,
+      "std_mean_luminance": 0.05210578334003973,
+      "std_niqe": 0.5521856421442931,
+      "std_rgb_channel_imbalance": 0.0424975552954625
+    }
+  },
+  {
+    "failure_type": "residual_noise",
+    "rank": 1,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cat/2015_03112.png",
+    "target_path": "",
+    "category": "cat",
+    "illumination_level": "",
+    "candidate_score": 0.9889364303178483,
+    "score_components": {
+      "high_niqe": 0.9922575387123065,
+      "high_brisque": 0.9828850855745721,
+      "high_laplacian_sharpness": 0.9921217060581363
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0034942626953125,
+      "mean_brisque": 59.264017740885414,
+      "mean_dark_pixel_ratio": 0.0706787109375,
+      "mean_laplacian_sharpness": 0.018639773751298588,
+      "mean_luminance_std": 0.23549606402715048,
+      "mean_mean_luminance": 0.4045903782049815,
+      "mean_niqe": 15.994690895080566,
+      "mean_rgb_channel_imbalance": 0.0575734277566274
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.005828717614539384,
+      "std_brisque": 6.682014324788679,
+      "std_dark_pixel_ratio": 0.071631009934468,
+      "std_laplacian_sharpness": 0.0006430434249827535,
+      "std_luminance_std": 0.007336658596996463,
+      "std_mean_luminance": 0.02835252554670241,
+      "std_niqe": 1.4070028800105605,
+      "std_rgb_channel_imbalance": 0.009266925901515946
+    }
+  },
+  {
+    "failure_type": "residual_noise",
+    "rank": 2,
+    "dataset": "lol_v2_synthetic",
+    "input_path": "data/preprocessed/lol_v2_synthetic/test/low/r13928401t.png",
+    "target_path": "data/preprocessed/lol_v2_synthetic/test/normal/r13928401t.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.9878787878787878,
+    "score_components": {
+      "high_niqe": 1.0,
+      "high_brisque": 1.0,
+      "high_laplacian_sharpness": 0.9595959595959596
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 84.40675862630208,
+      "mean_dark_pixel_ratio": 0.055094401041666664,
+      "mean_laplacian_sharpness": 0.016516719634334247,
+      "mean_luminance_std": 0.20047113796075186,
+      "mean_mae": 0.0488650898138682,
+      "mean_mean_luminance": 0.4769642849763234,
+      "mean_niqe": 17.31828435262044,
+      "mean_psnr": 24.270325978597004,
+      "mean_rgb_channel_imbalance": 0.06608901421229045,
+      "mean_ssim": 0.8054534196853638
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 8.678530090835539,
+      "std_dark_pixel_ratio": 0.0023157359510208577,
+      "std_laplacian_sharpness": 0.000321626538364273,
+      "std_luminance_std": 0.0036402060033585786,
+      "std_mae": 0.003136619226705723,
+      "std_mean_luminance": 0.005999563859382432,
+      "std_niqe": 6.065720398366674,
+      "std_psnr": 0.4165897969121672,
+      "std_rgb_channel_imbalance": 0.018888611115392747,
+      "std_ssim": 0.027286412801896393
+    }
+  },
+  {
+    "failure_type": "residual_noise",
+    "rank": 3,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/dog/2015_05476.png",
+    "target_path": "",
+    "category": "dog",
+    "illumination_level": "",
+    "candidate_score": 0.9846441184460744,
+    "score_components": {
+      "high_niqe": 0.9974191795707689,
+      "high_brisque": 0.9994566693833198,
+      "high_laplacian_sharpness": 0.9524585710404782
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 7.120768229166667e-05,
+      "mean_brisque": 83.18499755859375,
+      "mean_dark_pixel_ratio": 0.0,
+      "mean_laplacian_sharpness": 0.014458270433048407,
+      "mean_luminance_std": 0.19014602899551392,
+      "mean_mean_luminance": 0.4507807691891988,
+      "mean_niqe": 19.475919087727863,
+      "mean_rgb_channel_imbalance": 0.01614256699879964
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 1.7619331945484184e-05,
+      "std_brisque": 6.501903287376291,
+      "std_dark_pixel_ratio": 0.0,
+      "std_laplacian_sharpness": 0.0003859931146525088,
+      "std_luminance_std": 0.0051999000622479485,
+      "std_mean_luminance": 0.022662099665224214,
+      "std_niqe": 1.3082916342127084,
+      "std_rgb_channel_imbalance": 0.003922677496123538
+    }
+  },
+  {
+    "failure_type": "residual_noise",
+    "rank": 4,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/bicycle/2015_00316.png",
+    "target_path": "",
+    "category": "bicycle",
+    "illumination_level": "",
+    "candidate_score": 0.9761138277641945,
+    "score_components": {
+      "high_niqe": 0.9828850855745721,
+      "high_brisque": 0.9534093996196685,
+      "high_laplacian_sharpness": 0.9947025264873676
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0020395914713541665,
+      "mean_brisque": 52.576517740885414,
+      "mean_dark_pixel_ratio": 0.2784067789713542,
+      "mean_laplacian_sharpness": 0.019618018840750057,
+      "mean_luminance_std": 0.2589038411776225,
+      "mean_mean_luminance": 0.3357541263103485,
+      "mean_niqe": 13.695693333943685,
+      "mean_rgb_channel_imbalance": 0.04775827129681905
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0035194698254993485,
+      "std_brisque": 4.142120734153597,
+      "std_dark_pixel_ratio": 0.04765170393559416,
+      "std_laplacian_sharpness": 0.0025159606490937365,
+      "std_luminance_std": 0.0018951912661000715,
+      "std_mean_luminance": 0.02258282217258079,
+      "std_niqe": 5.506797171769855,
+      "std_rgb_channel_imbalance": 0.006937961284564777
+    }
+  },
+  {
+    "failure_type": "residual_noise",
+    "rank": 5,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cup/2015_04486.png",
+    "target_path": "",
+    "category": "cup",
+    "illumination_level": "",
+    "candidate_score": 0.974110296115186,
+    "score_components": {
+      "high_niqe": 0.9811192610703613,
+      "high_brisque": 0.9957891877207281,
+      "high_laplacian_sharpness": 0.9406411301276827
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0033620198567708335,
+      "mean_brisque": 68.46046956380208,
+      "mean_dark_pixel_ratio": 0.07059733072916667,
+      "mean_laplacian_sharpness": 0.01394366379827261,
+      "mean_luminance_std": 0.21979298690954843,
+      "mean_mean_luminance": 0.38813509543736774,
+      "mean_niqe": 13.438763936360678,
+      "mean_rgb_channel_imbalance": 0.047545929749806724
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0031250854321563937,
+      "std_brisque": 2.7514901928099254,
+      "std_dark_pixel_ratio": 0.03940531486289788,
+      "std_laplacian_sharpness": 0.001642159829057646,
+      "std_luminance_std": 0.010376609724151836,
+      "std_mean_luminance": 0.025976531298344745,
+      "std_niqe": 1.5327950450397418,
+      "std_rgb_channel_imbalance": 0.014302844081455402
+    }
+  },
+  {
+    "failure_type": "residual_noise",
+    "rank": 6,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/dog/2015_05267.png",
+    "target_path": "",
+    "category": "dog",
+    "illumination_level": "",
+    "candidate_score": 0.9734447161097528,
+    "score_components": {
+      "high_niqe": 0.9244770442814453,
+      "high_brisque": 1.0,
+      "high_laplacian_sharpness": 0.9995925020374898
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0004679361979166667,
+      "mean_brisque": 96.74749755859375,
+      "mean_dark_pixel_ratio": 0.12397257486979167,
+      "mean_laplacian_sharpness": 0.027647305900851887,
+      "mean_luminance_std": 0.23069172104199728,
+      "mean_mean_luminance": 0.39905043443044025,
+      "mean_niqe": 9.912487347920736,
+      "mean_rgb_channel_imbalance": 0.04241853952407837
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0008104892694922725,
+      "std_brisque": 3.099221400573997,
+      "std_dark_pixel_ratio": 0.016318719065864674,
+      "std_laplacian_sharpness": 0.0018913741617498801,
+      "std_luminance_std": 0.0018586432638642665,
+      "std_mean_luminance": 0.013854665347908145,
+      "std_niqe": 0.4394236598854523,
+      "std_rgb_channel_imbalance": 0.00886083403244829
+    }
+  },
+  {
+    "failure_type": "residual_noise",
+    "rank": 7,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/people/2015_06462.png",
+    "target_path": "",
+    "category": "people",
+    "illumination_level": "",
+    "candidate_score": 0.9696481934256995,
+    "score_components": {
+      "high_niqe": 0.967535995653355,
+      "high_brisque": 0.9470252648736757,
+      "high_laplacian_sharpness": 0.9985058408041293
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0023651123046875,
+      "mean_brisque": 51.625101725260414,
+      "mean_dark_pixel_ratio": 0.0903778076171875,
+      "mean_laplacian_sharpness": 0.02380586974322796,
+      "mean_luminance_std": 0.21560282508532205,
+      "mean_mean_luminance": 0.39137397209803265,
+      "mean_niqe": 11.939274470011393,
+      "mean_rgb_channel_imbalance": 0.11602487166722615
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.004083287305921206,
+      "std_brisque": 6.899261383649465,
+      "std_dark_pixel_ratio": 0.025718135595804548,
+      "std_laplacian_sharpness": 0.0042889759382890675,
+      "std_luminance_std": 0.0018078285402761054,
+      "std_mean_luminance": 0.0219553692234605,
+      "std_niqe": 0.5286099868189457,
+      "std_rgb_channel_imbalance": 0.006028607116567205
+    }
+  },
+  {
+    "failure_type": "residual_noise",
+    "rank": 8,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/dog/2015_05017.png",
+    "target_path": "",
+    "category": "dog",
+    "illumination_level": "",
+    "candidate_score": 0.9676718283075252,
+    "score_components": {
+      "high_niqe": 0.9415919587068732,
+      "high_brisque": 0.9660418364574844,
+      "high_laplacian_sharpness": 1.0
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0008087158203125,
+      "mean_brisque": 55.082377115885414,
+      "mean_dark_pixel_ratio": 0.0912322998046875,
+      "mean_laplacian_sharpness": 0.03366592340171337,
+      "mean_luminance_std": 0.24977768460909525,
+      "mean_mean_luminance": 0.34880786140759784,
+      "mean_niqe": 10.465901692708334,
+      "mean_rgb_channel_imbalance": 0.0666995644569397
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0003367321241869188,
+      "std_brisque": 7.537938710525356,
+      "std_dark_pixel_ratio": 0.12694481033827107,
+      "std_laplacian_sharpness": 0.004957060521710906,
+      "std_luminance_std": 0.001339226570371477,
+      "std_mean_luminance": 0.03460600546323492,
+      "std_niqe": 0.10903119045775342,
+      "std_rgb_channel_imbalance": 0.005313285722018298
+    }
+  },
+  {
+    "failure_type": "residual_noise",
+    "rank": 9,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cat/2015_03653.png",
+    "target_path": "",
+    "category": "cat",
+    "illumination_level": "",
+    "candidate_score": 0.9627139364303178,
+    "score_components": {
+      "high_niqe": 0.9985058408041293,
+      "high_brisque": 0.9411844607443629,
+      "high_laplacian_sharpness": 0.9460744362944852
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 50.784200032552086,
+      "mean_dark_pixel_ratio": 0.041905721028645836,
+      "mean_laplacian_sharpness": 0.014224734467764696,
+      "mean_luminance_std": 0.28487154841423035,
+      "mean_mean_luminance": 0.35698941349983215,
+      "mean_niqe": 21.13258934020996,
+      "mean_rgb_channel_imbalance": 0.05512042840321859
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 5.814064355440022,
+      "std_dark_pixel_ratio": 0.015377288989283361,
+      "std_laplacian_sharpness": 0.0006579609455022246,
+      "std_luminance_std": 0.013652223785713626,
+      "std_mean_luminance": 0.007539687214481542,
+      "std_niqe": 2.4471275357247446,
+      "std_rgb_channel_imbalance": 0.011315157673754603
+    }
+  },
+  {
+    "failure_type": "residual_noise",
+    "rank": 10,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/people/2015_06421.png",
+    "target_path": "",
+    "category": "people",
+    "illumination_level": "",
+    "candidate_score": 0.9510187449062755,
+    "score_components": {
+      "high_niqe": 0.9983700081499592,
+      "high_brisque": 0.9356153219233904,
+      "high_laplacian_sharpness": 0.9137462646020104
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 50.19573974609375,
+      "mean_dark_pixel_ratio": 0.2654215494791667,
+      "mean_laplacian_sharpness": 0.01297886266062657,
+      "mean_luminance_std": 0.2693333427111308,
+      "mean_mean_luminance": 0.3918628990650177,
+      "mean_niqe": 20.93550682067871,
+      "mean_rgb_channel_imbalance": 0.021562188863754272
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 0.8824401340225109,
+      "std_dark_pixel_ratio": 0.01482790312301226,
+      "std_laplacian_sharpness": 0.0008272208681390686,
+      "std_luminance_std": 0.008986409614885473,
+      "std_mean_luminance": 0.025264999579477258,
+      "std_niqe": 1.1216642093646167,
+      "std_rgb_channel_imbalance": 0.01036064021623968
+    }
+  },
+  {
+    "failure_type": "halo_artifacts",
+    "rank": 1,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cup/2015_04888.png",
+    "target_path": "",
+    "category": "cup",
+    "illumination_level": "",
+    "candidate_score": 0.9415342298288508,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9499456669383319,
+      "high_laplacian_sharpness": 0.9979625101874491,
+      "high_brisque": 0.8660690029883183,
+      "high_niqe": 0.9096712849769084
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.02392578125,
+      "mean_brisque": 44.970072428385414,
+      "mean_dark_pixel_ratio": 0.035003662109375,
+      "mean_laplacian_sharpness": 0.022985969359676044,
+      "mean_luminance_std": 0.1662452220916748,
+      "mean_mean_luminance": 0.42002854744593304,
+      "mean_niqe": 9.528313954671225,
+      "mean_rgb_channel_imbalance": 0.16453797618548074
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0087090666434044,
+      "std_brisque": 2.566292309759888,
+      "std_dark_pixel_ratio": 0.021819262723121655,
+      "std_laplacian_sharpness": 0.0032477552146452575,
+      "std_luminance_std": 0.010816401342670881,
+      "std_mean_luminance": 0.02289517489010361,
+      "std_niqe": 0.8790994220545568,
+      "std_rgb_channel_imbalance": 0.009518711842135813
+    }
+  },
+  {
+    "failure_type": "halo_artifacts",
+    "rank": 2,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/bus/2015_02372.png",
+    "target_path": "",
+    "category": "bus",
+    "illumination_level": "",
+    "candidate_score": 0.9335336864982343,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.936905732138006,
+      "high_laplacian_sharpness": 0.9937516979081771,
+      "high_brisque": 0.8173050801412659,
+      "high_niqe": 0.9602010323281717
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.022318522135416668,
+      "mean_brisque": 42.83953857421875,
+      "mean_dark_pixel_ratio": 0.0014699300130208333,
+      "mean_laplacian_sharpness": 0.019354605426390965,
+      "mean_luminance_std": 0.23204809923966727,
+      "mean_mean_luminance": 0.28428395589192706,
+      "mean_niqe": 11.393290519714355,
+      "mean_rgb_channel_imbalance": 0.07464894652366638
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.017577372199292562,
+      "std_brisque": 3.3477349733869035,
+      "std_dark_pixel_ratio": 0.0025459934661224647,
+      "std_laplacian_sharpness": 0.0012762752451871925,
+      "std_luminance_std": 0.009163743070894403,
+      "std_mean_luminance": 0.017489665235473562,
+      "std_niqe": 0.8083458785292236,
+      "std_rgb_channel_imbalance": 0.001683516944351289
+    }
+  },
+  {
+    "failure_type": "halo_artifacts",
+    "rank": 3,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cat/2015_03110.png",
+    "target_path": "",
+    "category": "cat",
+    "illumination_level": "",
+    "candidate_score": 0.9299477044281446,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.8990084216245585,
+      "high_laplacian_sharpness": 0.9619668568323825,
+      "high_brisque": 0.984786742732953,
+      "high_niqe": 0.8649823417549579
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.018971761067708332,
+      "mean_brisque": 60.26531982421875,
+      "mean_dark_pixel_ratio": 0.12530008951822916,
+      "mean_laplacian_sharpness": 0.014992979976038137,
+      "mean_luminance_std": 0.19273885091145834,
+      "mean_mean_luminance": 0.2954525152842204,
+      "mean_niqe": 8.587731838226318,
+      "mean_rgb_channel_imbalance": 0.03778103987375895
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.007424343058488,
+      "std_brisque": 1.555883589663163,
+      "std_dark_pixel_ratio": 0.1085438787198846,
+      "std_laplacian_sharpness": 0.0036506513535584013,
+      "std_luminance_std": 0.0024509241009380177,
+      "std_mean_luminance": 0.019720805696581124,
+      "std_niqe": 1.2834127373762425,
+      "std_rgb_channel_imbalance": 0.0023136389174653305
+    }
+  },
+  {
+    "failure_type": "halo_artifacts",
+    "rank": 4,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cat/2015_03673.png",
+    "target_path": "",
+    "category": "cat",
+    "illumination_level": "",
+    "candidate_score": 0.9257674544960609,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9967400162999185,
+      "high_laplacian_sharpness": 0.9649551752241239,
+      "high_brisque": 0.882504754142896,
+      "high_niqe": 0.7394729693018202
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.039398193359375,
+      "mean_brisque": 45.92181396484375,
+      "mean_dark_pixel_ratio": 0.0095977783203125,
+      "mean_laplacian_sharpness": 0.01516599797954162,
+      "mean_luminance_std": 0.2036267320315043,
+      "mean_mean_luminance": 0.37290231386820477,
+      "mean_niqe": 7.399561405181885,
+      "mean_rgb_channel_imbalance": 0.13017511367797852
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.03420065849558924,
+      "std_brisque": 3.1795400355680377,
+      "std_dark_pixel_ratio": 0.01662383969056433,
+      "std_laplacian_sharpness": 0.0012477489429021061,
+      "std_luminance_std": 0.00604790015473552,
+      "std_mean_luminance": 0.016662007583504994,
+      "std_niqe": 0.5039987767747006,
+      "std_rgb_channel_imbalance": 0.005600506554283638
+    }
+  },
+  {
+    "failure_type": "halo_artifacts",
+    "rank": 5,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/cat/2015_03102.png",
+    "target_path": "",
+    "category": "cat",
+    "illumination_level": "",
+    "candidate_score": 0.9109345286606901,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.8645748437924478,
+      "high_laplacian_sharpness": 0.9925292040206466,
+      "high_brisque": 0.871638141809291,
+      "high_niqe": 0.9083129584352079
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.016698201497395832,
+      "mean_brisque": 45.281595865885414,
+      "mean_dark_pixel_ratio": 0.2352142333984375,
+      "mean_laplacian_sharpness": 0.018914932385087013,
+      "mean_luminance_std": 0.2603529592355092,
+      "mean_mean_luminance": 0.33535483479499817,
+      "mean_niqe": 9.483662923177084,
+      "mean_rgb_channel_imbalance": 0.05868169665336609
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.025702026470772358,
+      "std_brisque": 0.8472006609175965,
+      "std_dark_pixel_ratio": 0.2044075976969073,
+      "std_laplacian_sharpness": 0.0017591454758931996,
+      "std_luminance_std": 0.0064338568606220415,
+      "std_mean_luminance": 0.03253090465491821,
+      "std_niqe": 0.41077956833539236,
+      "std_rgb_channel_imbalance": 0.010634633893063789
+    }
+  },
+  {
+    "failure_type": "halo_artifacts",
+    "rank": 6,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/102.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/102.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.9085170340681362,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9919839679358717,
+      "high_laplacian_sharpness": 0.7995991983967936,
+      "high_brisque": 0.9218436873747495,
+      "high_niqe": 0.9138276553106213
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.021626790364583332,
+      "mean_brisque": 42.17449951171875,
+      "mean_dark_pixel_ratio": 0.100738525390625,
+      "mean_laplacian_sharpness": 0.010951972876985868,
+      "mean_luminance_std": 0.23941567540168762,
+      "mean_mae": 0.1617643932501475,
+      "mean_mean_luminance": 0.399801641702652,
+      "mean_niqe": 9.004270553588867,
+      "mean_psnr": 14.723821957906088,
+      "mean_rgb_channel_imbalance": 0.04973087708155314,
+      "mean_ssim": 0.7362194259961446
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.00486423614554311,
+      "std_brisque": 1.848177040045988,
+      "std_dark_pixel_ratio": 0.03579814353316177,
+      "std_laplacian_sharpness": 0.0009681011379173211,
+      "std_luminance_std": 0.0033045235391005808,
+      "std_mae": 0.018499114100689794,
+      "std_mean_luminance": 0.01803210369093184,
+      "std_niqe": 0.16425254502991685,
+      "std_psnr": 0.815005348741334,
+      "std_rgb_channel_imbalance": 0.005746894486544304,
+      "std_ssim": 0.033139904001017614
+    }
+  },
+  {
+    "failure_type": "halo_artifacts",
+    "rank": 7,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/101.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/101.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.9029058116232466,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9959919839679359,
+      "high_laplacian_sharpness": 0.7835671342685371,
+      "high_brisque": 0.9078156312625251,
+      "high_niqe": 0.9178356713426854
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.022389729817708332,
+      "mean_brisque": 41.173197428385414,
+      "mean_dark_pixel_ratio": 0.07463582356770833,
+      "mean_laplacian_sharpness": 0.010769018903374672,
+      "mean_luminance_std": 0.23499789337317148,
+      "mean_mae": 0.05353187024593353,
+      "mean_mean_luminance": 0.3993210593859355,
+      "mean_niqe": 9.028676350911459,
+      "mean_psnr": 23.75481414794922,
+      "mean_rgb_channel_imbalance": 0.053228249152501426,
+      "mean_ssim": 0.9044745564460754
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0034603937323214266,
+      "std_brisque": 1.4896955470075928,
+      "std_dark_pixel_ratio": 0.03875691971855641,
+      "std_laplacian_sharpness": 0.0010102427039791891,
+      "std_luminance_std": 0.006011320377310715,
+      "std_mae": 0.011069491621035698,
+      "std_mean_luminance": 0.01946567940502496,
+      "std_niqe": 0.5762498408412042,
+      "std_psnr": 1.2629577072871352,
+      "std_rgb_channel_imbalance": 0.002322494115251182,
+      "std_ssim": 0.0033416639833608167
+    }
+  },
+  {
+    "failure_type": "halo_artifacts",
+    "rank": 8,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/people/2015_06425.png",
+    "target_path": "",
+    "category": "people",
+    "illumination_level": "",
+    "candidate_score": 0.9015960336864984,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.8450149415919587,
+      "high_laplacian_sharpness": 0.9664493344199946,
+      "high_brisque": 0.9216245585438739,
+      "high_niqe": 0.8772072806302635
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.015650431315104168,
+      "mean_brisque": 48.731791178385414,
+      "mean_dark_pixel_ratio": 0.0026906331380208335,
+      "mean_laplacian_sharpness": 0.015298629179596901,
+      "mean_luminance_std": 0.24198317527770996,
+      "mean_mean_luminance": 0.32402488589286804,
+      "mean_niqe": 8.769335269927979,
+      "mean_rgb_channel_imbalance": 0.03866279125213623
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.008428962996633586,
+      "std_brisque": 3.624586882015961,
+      "std_dark_pixel_ratio": 0.0024448529391553784,
+      "std_laplacian_sharpness": 0.002435568782662415,
+      "std_luminance_std": 0.007816583186782413,
+      "std_mean_luminance": 0.008925386254217326,
+      "std_niqe": 1.1129002700745083,
+      "std_rgb_channel_imbalance": 0.0046927161489178975
+    }
+  },
+  {
+    "failure_type": "halo_artifacts",
+    "rank": 9,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/bottle/2015_01837.png",
+    "target_path": "",
+    "category": "bottle",
+    "illumination_level": "",
+    "candidate_score": 0.8923967671828308,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.9612197772344472,
+      "high_laplacian_sharpness": 0.7193697364846509,
+      "high_brisque": 0.9775876120619397,
+      "high_niqe": 0.9642760119532736
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.02569580078125,
+      "mean_brisque": 57.78729248046875,
+      "mean_dark_pixel_ratio": 0.20415242513020834,
+      "mean_laplacian_sharpness": 0.009570139149824778,
+      "mean_luminance_std": 0.19820494453112283,
+      "mean_mean_luminance": 0.28485970695813495,
+      "mean_niqe": 11.69583543141683,
+      "mean_rgb_channel_imbalance": 0.1200820803642273
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0003496227794613525,
+      "std_brisque": 5.414454744560429,
+      "std_dark_pixel_ratio": 0.05187724686452293,
+      "std_laplacian_sharpness": 0.0017492606426503857,
+      "std_luminance_std": 0.00636299954048439,
+      "std_mean_luminance": 0.0287027267391279,
+      "std_niqe": 0.7920694876012151,
+      "std_rgb_channel_imbalance": 0.004295327357059791
+    }
+  },
+  {
+    "failure_type": "halo_artifacts",
+    "rank": 10,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/bottle/2015_01761.png",
+    "target_path": "",
+    "category": "bottle",
+    "illumination_level": "",
+    "candidate_score": 0.8912761477859278,
+    "score_components": {
+      "high_bright_clipping_ratio": 0.8146563433849497,
+      "high_laplacian_sharpness": 0.9790817712578104,
+      "high_brisque": 0.8617223580548764,
+      "high_niqe": 0.9338494974191796
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.014048258463541666,
+      "mean_brisque": 44.806498209635414,
+      "mean_dark_pixel_ratio": 0.048548380533854164,
+      "mean_laplacian_sharpness": 0.016307860302428406,
+      "mean_luminance_std": 0.28121304512023926,
+      "mean_mean_luminance": 0.3428402245044708,
+      "mean_niqe": 10.193421681722006,
+      "mean_rgb_channel_imbalance": 0.036857277154922485
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.02134006614273571,
+      "std_brisque": 1.0171471071597782,
+      "std_dark_pixel_ratio": 0.08161654027731088,
+      "std_laplacian_sharpness": 0.0015459689345508954,
+      "std_luminance_std": 0.007973972280129537,
+      "std_mean_luminance": 0.022162796689818878,
+      "std_niqe": 0.7658562915197223,
+      "std_rgb_channel_imbalance": 0.011366840683594302
+    }
+  },
+  {
+    "failure_type": "hallucinated_details",
+    "rank": 1,
+    "dataset": "lol_v2_real",
+    "input_path": "data/preprocessed/lol_v2_real/test/low/low00764.png",
+    "target_path": "data/preprocessed/lol_v2_real/test/normal/normal00764.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 1.0,
+    "score_components": {
+      "low_ssim": 1.0,
+      "low_psnr": 1.0,
+      "high_mae": 1.0
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 11.965596516927084,
+      "mean_dark_pixel_ratio": 0.004913330078125,
+      "mean_laplacian_sharpness": 0.0027511903705696263,
+      "mean_luminance_std": 0.07958134015401204,
+      "mean_mae": 0.21100490788618723,
+      "mean_mean_luminance": 0.46323885520299274,
+      "mean_niqe": 10.653605143229166,
+      "mean_psnr": 13.379858016967773,
+      "mean_rgb_channel_imbalance": 0.03583362698554993,
+      "mean_ssim": 0.7322127421696981
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 11.99964014729059,
+      "std_dark_pixel_ratio": 0.0018466917548952853,
+      "std_laplacian_sharpness": 0.000380095268666419,
+      "std_luminance_std": 0.0022686581465070662,
+      "std_mae": 0.027438373743801734,
+      "std_mean_luminance": 0.026066641006124564,
+      "std_niqe": 1.2571215587319824,
+      "std_psnr": 1.0606159888422895,
+      "std_rgb_channel_imbalance": 0.007630930915436467,
+      "std_ssim": 0.03865590334635705
+    }
+  },
+  {
+    "failure_type": "hallucinated_details",
+    "rank": 2,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/boat/2015_01133.png",
+    "target_path": "",
+    "category": "boat",
+    "illumination_level": "",
+    "candidate_score": 0.9983700081499592,
+    "score_components": {
+      "high_niqe": 0.9995925020374898,
+      "high_brisque": 0.9971475142624286,
+      "anomaly_laplacian_sharpness": 0.9983700081499592
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 70.55421956380208,
+      "mean_dark_pixel_ratio": 0.06320699055989583,
+      "mean_laplacian_sharpness": 0.0013563830871134996,
+      "mean_luminance_std": 0.19214536249637604,
+      "mean_mean_luminance": 0.3875352442264557,
+      "mean_niqe": 24.31612205505371,
+      "mean_rgb_channel_imbalance": 0.1135015885035197
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 8.308043483966616,
+      "std_dark_pixel_ratio": 0.005842509102690476,
+      "std_laplacian_sharpness": 0.00015242998721627036,
+      "std_luminance_std": 0.020993849440690684,
+      "std_mean_luminance": 0.020525032785126008,
+      "std_niqe": 4.397091665595854,
+      "std_rgb_channel_imbalance": 0.008306402774968028
+    }
+  },
+  {
+    "failure_type": "hallucinated_details",
+    "rank": 3,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/764.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/764.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.995190380761523,
+    "score_components": {
+      "low_ssim": 0.9879759519038076,
+      "low_psnr": 1.0,
+      "high_mae": 1.0
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 11.965596516927084,
+      "mean_dark_pixel_ratio": 0.004913330078125,
+      "mean_laplacian_sharpness": 0.0027511903705696263,
+      "mean_luminance_std": 0.07958134015401204,
+      "mean_mae": 0.21100490788618723,
+      "mean_mean_luminance": 0.46323885520299274,
+      "mean_niqe": 10.653605143229166,
+      "mean_psnr": 13.379858016967773,
+      "mean_rgb_channel_imbalance": 0.03583362698554993,
+      "mean_ssim": 0.7322127421696981
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 11.99964014729059,
+      "std_dark_pixel_ratio": 0.0018466917548952853,
+      "std_laplacian_sharpness": 0.000380095268666419,
+      "std_luminance_std": 0.0022686581465070662,
+      "std_mae": 0.027438373743801734,
+      "std_mean_luminance": 0.026066641006124564,
+      "std_niqe": 1.2571215587319824,
+      "std_psnr": 1.0606159888422895,
+      "std_rgb_channel_imbalance": 0.007630930915436467,
+      "std_ssim": 0.03865590334635705
+    }
+  },
+  {
+    "failure_type": "hallucinated_details",
+    "rank": 4,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/car/2015_02570.png",
+    "target_path": "",
+    "category": "car",
+    "illumination_level": "",
+    "candidate_score": 0.993547948926922,
+    "score_components": {
+      "high_niqe": 0.9968758489540885,
+      "high_brisque": 0.9979625101874491,
+      "anomaly_laplacian_sharpness": 0.9845150774246129
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 71.80072021484375,
+      "mean_dark_pixel_ratio": 0.059122721354166664,
+      "mean_laplacian_sharpness": 0.00213041459210217,
+      "mean_luminance_std": 0.24285959700743356,
+      "mean_mean_luminance": 0.44146114587783813,
+      "mean_niqe": 18.624913533528645,
+      "mean_rgb_channel_imbalance": 0.09395348032315572
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 3.5059110164823637,
+      "std_dark_pixel_ratio": 0.010545692701358474,
+      "std_laplacian_sharpness": 0.00010482900623988321,
+      "std_luminance_std": 0.0052029765366960745,
+      "std_mean_luminance": 0.008093985747138153,
+      "std_niqe": 2.27272418790936,
+      "std_rgb_channel_imbalance": 0.014344940908543541
+    }
+  },
+  {
+    "failure_type": "hallucinated_details",
+    "rank": 5,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/763.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/763.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.9923847695390782,
+    "score_components": {
+      "low_ssim": 0.9839679358717435,
+      "low_psnr": 0.9979959919839679,
+      "high_mae": 0.9979959919839679
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 6.013203938802083,
+      "mean_dark_pixel_ratio": 0.0048828125,
+      "mean_laplacian_sharpness": 0.003038297329718868,
+      "mean_luminance_std": 0.07800797869761784,
+      "mean_mae": 0.20475654800732931,
+      "mean_mean_luminance": 0.45965197682380676,
+      "mean_niqe": 10.464659690856934,
+      "mean_psnr": 13.633067766825357,
+      "mean_rgb_channel_imbalance": 0.02404835820198059,
+      "mean_ssim": 0.7384471893310547
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 3.6060885154670372,
+      "std_dark_pixel_ratio": 0.002425763561657287,
+      "std_laplacian_sharpness": 0.0005421266385181815,
+      "std_luminance_std": 0.008960611599561132,
+      "std_mae": 0.03270553455163926,
+      "std_mean_luminance": 0.032311350833979,
+      "std_niqe": 1.7639439387108298,
+      "std_psnr": 1.2275263547474933,
+      "std_rgb_channel_imbalance": 0.010851361185475555,
+      "std_ssim": 0.03527651886321736
+    }
+  },
+  {
+    "failure_type": "hallucinated_details",
+    "rank": 6,
+    "dataset": "mill_s",
+    "input_path": "data/preprocessed/mill_s/test/input/test16-3.png",
+    "target_path": "data/preprocessed/mill_s/test/gt/test16.png",
+    "category": "",
+    "illumination_level": "3",
+    "candidate_score": 0.9905622489959838,
+    "score_components": {
+      "low_ssim": 0.9839357429718876,
+      "low_psnr": 0.9959839357429718,
+      "high_mae": 0.9939759036144579
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 24.897318522135418,
+      "mean_dark_pixel_ratio": 0.08331807454427083,
+      "mean_laplacian_sharpness": 0.006515459467967351,
+      "mean_luminance_std": 0.19783836603164673,
+      "mean_mae": 0.23720266421635947,
+      "mean_mean_luminance": 0.46456708510716754,
+      "mean_niqe": 6.3430711428324384,
+      "mean_psnr": 11.772789001464844,
+      "mean_rgb_channel_imbalance": 0.10608418782552083,
+      "mean_ssim": 0.5511465867360433
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 1.8923010424802675,
+      "std_dark_pixel_ratio": 0.004480016155603172,
+      "std_laplacian_sharpness": 0.00023169061841059327,
+      "std_luminance_std": 0.0025654502664454906,
+      "std_mae": 0.00849412829506827,
+      "std_mean_luminance": 0.01205750759976948,
+      "std_niqe": 0.610000308331399,
+      "std_psnr": 0.2770789002490181,
+      "std_rgb_channel_imbalance": 0.00697199179389921,
+      "std_ssim": 0.012030888788691789
+    }
+  },
+  {
+    "failure_type": "hallucinated_details",
+    "rank": 7,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/car/2015_02928.png",
+    "target_path": "",
+    "category": "car",
+    "illumination_level": "",
+    "candidate_score": 0.9900842162455854,
+    "score_components": {
+      "high_niqe": 0.9972833469165987,
+      "high_brisque": 0.9967400162999185,
+      "anomaly_laplacian_sharpness": 0.973920130399348
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 69.79087320963542,
+      "mean_dark_pixel_ratio": 0.0027516682942708335,
+      "mean_laplacian_sharpness": 0.002327147095153729,
+      "mean_luminance_std": 0.1762796938419342,
+      "mean_mean_luminance": 0.5140450199445089,
+      "mean_niqe": 19.455169041951496,
+      "mean_rgb_channel_imbalance": 0.23102014263470969
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 5.564835231449052,
+      "std_dark_pixel_ratio": 0.003589946990937825,
+      "std_laplacian_sharpness": 0.00020918365003327506,
+      "std_luminance_std": 0.0016685066127014932,
+      "std_mean_luminance": 0.012197547886478581,
+      "std_niqe": 1.9444685477706087,
+      "std_rgb_channel_imbalance": 0.03925577594062481
+    }
+  },
+  {
+    "failure_type": "hallucinated_details",
+    "rank": 8,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/people/2015_06517.png",
+    "target_path": "",
+    "category": "people",
+    "illumination_level": "",
+    "candidate_score": 0.9899144254278729,
+    "score_components": {
+      "high_niqe": 0.9841075794621027,
+      "high_brisque": 0.9942950285248574,
+      "anomaly_laplacian_sharpness": 0.9915783754414561
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 66.39154052734375,
+      "mean_dark_pixel_ratio": 0.0263671875,
+      "mean_laplacian_sharpness": 0.0019442443347846468,
+      "mean_luminance_std": 0.1722590426603953,
+      "mean_mean_luminance": 0.44061529636383057,
+      "mean_niqe": 13.923901875813803,
+      "mean_rgb_channel_imbalance": 0.23146414756774902
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 1.472212848643486,
+      "std_dark_pixel_ratio": 0.010591973909800967,
+      "std_laplacian_sharpness": 0.00014667315389934276,
+      "std_luminance_std": 0.02323334782995932,
+      "std_mean_luminance": 0.010264995733476974,
+      "std_niqe": 1.6460738256037204,
+      "std_rgb_channel_imbalance": 0.01271722160481846
+    }
+  },
+  {
+    "failure_type": "hallucinated_details",
+    "rank": 9,
+    "dataset": "lol_v2_real",
+    "input_path": "data/preprocessed/lol_v2_real/test/low/low00763.png",
+    "target_path": "data/preprocessed/lol_v2_real/test/normal/normal00763.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.98989898989899,
+    "score_components": {
+      "low_ssim": 0.98989898989899,
+      "low_psnr": 0.98989898989899,
+      "high_mae": 0.98989898989899
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 6.013203938802083,
+      "mean_dark_pixel_ratio": 0.0048828125,
+      "mean_laplacian_sharpness": 0.003038297329718868,
+      "mean_luminance_std": 0.07800797869761784,
+      "mean_mae": 0.20475654800732931,
+      "mean_mean_luminance": 0.45965197682380676,
+      "mean_niqe": 10.464659690856934,
+      "mean_psnr": 13.633067766825357,
+      "mean_rgb_channel_imbalance": 0.02404835820198059,
+      "mean_ssim": 0.7384471893310547
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 3.6060885154670372,
+      "std_dark_pixel_ratio": 0.002425763561657287,
+      "std_laplacian_sharpness": 0.0005421266385181815,
+      "std_luminance_std": 0.008960611599561132,
+      "std_mae": 0.03270553455163926,
+      "std_mean_luminance": 0.032311350833979,
+      "std_niqe": 1.7639439387108298,
+      "std_psnr": 1.2275263547474933,
+      "std_rgb_channel_imbalance": 0.010851361185475555,
+      "std_ssim": 0.03527651886321736
+    }
+  },
+  {
+    "failure_type": "hallucinated_details",
+    "rank": 10,
+    "dataset": "ex_dark",
+    "input_path": "data/preprocessed/ex_dark/car/2015_02457.png",
+    "target_path": "",
+    "category": "car",
+    "illumination_level": "",
+    "candidate_score": 0.9898668839989133,
+    "score_components": {
+      "high_niqe": 0.9961966856832383,
+      "high_brisque": 0.9902200488997555,
+      "anomaly_laplacian_sharpness": 0.9820700896495518
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.034978230794270836,
+      "mean_brisque": 63.385355631510414,
+      "mean_dark_pixel_ratio": 0.5897064208984375,
+      "mean_laplacian_sharpness": 0.002164565259590745,
+      "mean_luminance_std": 0.20684478183587393,
+      "mean_mean_luminance": 0.17695514857769012,
+      "mean_niqe": 18.077831904093426,
+      "mean_rgb_channel_imbalance": 0.10712256282567978
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.037139906160994184,
+      "std_brisque": 13.227131347080427,
+      "std_dark_pixel_ratio": 0.22654229723533773,
+      "std_laplacian_sharpness": 0.0001856460948862584,
+      "std_luminance_std": 0.02592758903178851,
+      "std_mean_luminance": 0.007622379037211531,
+      "std_niqe": 0.3421324881918007,
+      "std_rgb_channel_imbalance": 0.023014345841281637
+    }
+  },
+  {
+    "failure_type": "good_enhancement",
+    "rank": 1,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/605.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/605.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.8674348697394789,
+    "score_components": {
+      "high_ssim": 0.9879759519038076,
+      "high_psnr": 0.9939879759519038,
+      "low_mae": 0.9919839679358717,
+      "low_niqe": 0.47494989979959923,
+      "low_brisque": 0.719438877755511,
+      "low_dark_pixel_ratio": 0.6653306613226453,
+      "low_bright_clipping_ratio": 0.6933867735470942,
+      "low_rgb_channel_imbalance": 0.717434869739479
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 24.215189615885418,
+      "mean_dark_pixel_ratio": 0.0033009847005208335,
+      "mean_laplacian_sharpness": 0.004829526413232088,
+      "mean_luminance_std": 0.1428561011950175,
+      "mean_mae": 0.023369355748097103,
+      "mean_mean_luminance": 0.47138657172520954,
+      "mean_niqe": 6.680269241333008,
+      "mean_psnr": 30.667194366455078,
+      "mean_rgb_channel_imbalance": 0.02835164467493693,
+      "mean_ssim": 0.9556054671605428
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 4.1500701014599635,
+      "std_dark_pixel_ratio": 0.0027472742409338003,
+      "std_laplacian_sharpness": 0.0004861628003164281,
+      "std_luminance_std": 0.011998855754638856,
+      "std_mae": 0.002919059814541685,
+      "std_mean_luminance": 0.010102048641651972,
+      "std_niqe": 0.8381887162546086,
+      "std_psnr": 0.5696096486159871,
+      "std_rgb_channel_imbalance": 0.009813910726773156,
+      "std_ssim": 0.0066271178102138215
+    }
+  },
+  {
+    "failure_type": "good_enhancement",
+    "rank": 2,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/130.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/130.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.8578657314629258,
+    "score_components": {
+      "high_ssim": 0.9859719438877755,
+      "high_psnr": 0.9779559118236473,
+      "low_mae": 0.9539078156312625,
+      "low_niqe": 0.8136272545090181,
+      "low_brisque": 0.5010020040080161,
+      "low_dark_pixel_ratio": 0.908817635270541,
+      "low_bright_clipping_ratio": 0.6933867735470942,
+      "low_rgb_channel_imbalance": 0.26853707414829664
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 29.267435709635418,
+      "mean_dark_pixel_ratio": 0.0001220703125,
+      "mean_laplacian_sharpness": 0.006229734358688195,
+      "mean_luminance_std": 0.10007273654143016,
+      "mean_mae": 0.0284595371534427,
+      "mean_mean_luminance": 0.5598791241645813,
+      "mean_niqe": 5.505037784576416,
+      "mean_psnr": 29.426921208699543,
+      "mean_rgb_channel_imbalance": 0.0780827800432841,
+      "mean_ssim": 0.9542566140492758
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 2.7691004982626315,
+      "std_dark_pixel_ratio": 0.0002114319833458102,
+      "std_laplacian_sharpness": 0.0006124431417479692,
+      "std_luminance_std": 0.002831324795230224,
+      "std_mae": 0.008150900555519376,
+      "std_mean_luminance": 0.00901786696275221,
+      "std_niqe": 0.4227126535410585,
+      "std_psnr": 2.0614163669692744,
+      "std_rgb_channel_imbalance": 0.006463614488796838,
+      "std_ssim": 0.00477922318823039
+    }
+  },
+  {
+    "failure_type": "good_enhancement",
+    "rank": 3,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/254.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/254.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.8469939879759519,
+    "score_components": {
+      "high_ssim": 0.9739478957915831,
+      "high_psnr": 0.9559118236472945,
+      "low_mae": 0.9458917835671343,
+      "low_niqe": 0.030060120240480992,
+      "low_brisque": 0.9839679358717435,
+      "low_dark_pixel_ratio": 0.8216432865731462,
+      "low_bright_clipping_ratio": 0.6933867735470942,
+      "low_rgb_channel_imbalance": 0.9198396793587175
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 6.744486490885417,
+      "mean_dark_pixel_ratio": 0.0008799235026041666,
+      "mean_laplacian_sharpness": 0.0035105948336422443,
+      "mean_luminance_std": 0.17178958157698312,
+      "mean_mae": 0.02959811066587766,
+      "mean_mean_luminance": 0.3887770672639211,
+      "mean_niqe": 10.816771189371744,
+      "mean_psnr": 28.56478500366211,
+      "mean_rgb_channel_imbalance": 0.012668222188949585,
+      "mean_ssim": 0.9522167841593424
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 3.744657345176868,
+      "std_dark_pixel_ratio": 0.0014451074884402572,
+      "std_laplacian_sharpness": 0.0006622702242026853,
+      "std_luminance_std": 0.020691058551708733,
+      "std_mae": 0.010151867512784773,
+      "std_mean_luminance": 0.005532886687399961,
+      "std_niqe": 2.156109856604796,
+      "std_psnr": 3.784702118687273,
+      "std_rgb_channel_imbalance": 0.008387652886688574,
+      "std_ssim": 0.002310214885433379
+    }
+  },
+  {
+    "failure_type": "good_enhancement",
+    "rank": 4,
+    "dataset": "lol_v2_real",
+    "input_path": "data/preprocessed/lol_v2_real/test/low/low00696.png",
+    "target_path": "data/preprocessed/lol_v2_real/test/normal/normal00696.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.8444444444444444,
+    "score_components": {
+      "high_ssim": 0.898989898989899,
+      "high_psnr": 0.9292929292929293,
+      "low_mae": 0.9393939393939394,
+      "low_niqe": 1.0,
+      "low_brisque": 0.8282828282828283,
+      "low_dark_pixel_ratio": 0.101010101010101,
+      "low_bright_clipping_ratio": 0.5656565656565656,
+      "low_rgb_channel_imbalance": 0.595959595959596
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 9.663899739583333e-05,
+      "mean_brisque": 19.08465576171875,
+      "mean_dark_pixel_ratio": 0.060557047526041664,
+      "mean_laplacian_sharpness": 0.008903025649487972,
+      "mean_luminance_std": 0.20802155633767447,
+      "mean_mae": 0.04535850634177526,
+      "mean_mean_luminance": 0.40595807631810504,
+      "mean_niqe": 4.107409954071045,
+      "mean_psnr": 25.158837000528973,
+      "mean_rgb_channel_imbalance": 0.02665613094965617,
+      "mean_ssim": 0.909361998240153
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 3.1763702384431955e-05,
+      "std_brisque": 0.6116585615419707,
+      "std_dark_pixel_ratio": 0.03199445095446973,
+      "std_laplacian_sharpness": 0.00029372817788047325,
+      "std_luminance_std": 0.002602656150931379,
+      "std_mae": 0.0033697021050187663,
+      "std_mean_luminance": 0.012415084308928357,
+      "std_niqe": 0.08375524689004574,
+      "std_psnr": 0.47985331080434457,
+      "std_rgb_channel_imbalance": 0.005236866920382903,
+      "std_ssim": 0.004304573881072364
+    }
+  },
+  {
+    "failure_type": "good_enhancement",
+    "rank": 5,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/654.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/654.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.8391783567134269,
+    "score_components": {
+      "high_ssim": 0.8216432865731463,
+      "high_psnr": 0.9539078156312625,
+      "low_mae": 0.9579158316633266,
+      "low_niqe": 0.6893787575150301,
+      "low_brisque": 0.8697394789579158,
+      "low_dark_pixel_ratio": 0.4188376753507014,
+      "low_bright_clipping_ratio": 0.6933867735470942,
+      "low_rgb_channel_imbalance": 0.7975951903807615
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 19.673197428385418,
+      "mean_dark_pixel_ratio": 0.011260986328125,
+      "mean_laplacian_sharpness": 0.006015496328473091,
+      "mean_luminance_std": 0.19204823672771454,
+      "mean_mae": 0.028408682594696682,
+      "mean_mean_luminance": 0.441082239151001,
+      "mean_niqe": 5.864113648732503,
+      "mean_psnr": 28.548956553141277,
+      "mean_rgb_channel_imbalance": 0.022299309571584065,
+      "mean_ssim": 0.9318261941274008
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 3.357846798136577,
+      "std_dark_pixel_ratio": 0.0014410470189236933,
+      "std_laplacian_sharpness": 0.0003698661355492672,
+      "std_luminance_std": 0.0027250598101342745,
+      "std_mae": 0.0012667075675874893,
+      "std_mean_luminance": 0.007777007214445952,
+      "std_niqe": 0.3171428434508456,
+      "std_psnr": 0.4306142878248506,
+      "std_rgb_channel_imbalance": 0.01099594199825754,
+      "std_ssim": 0.007202725354012146
+    }
+  },
+  {
+    "failure_type": "good_enhancement",
+    "rank": 6,
+    "dataset": "lol_v2_real",
+    "input_path": "data/preprocessed/lol_v2_real/test/low/low00697.png",
+    "target_path": "data/preprocessed/lol_v2_real/test/normal/normal00697.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.8391414141414142,
+    "score_components": {
+      "high_ssim": 0.8888888888888888,
+      "high_psnr": 0.9393939393939394,
+      "low_mae": 0.9494949494949495,
+      "low_niqe": 0.98989898989899,
+      "low_brisque": 0.797979797979798,
+      "low_dark_pixel_ratio": 0.08080808080808077,
+      "low_bright_clipping_ratio": 0.5505050505050505,
+      "low_rgb_channel_imbalance": 0.5757575757575757
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.00010172526041666667,
+      "mean_brisque": 19.95672607421875,
+      "mean_dark_pixel_ratio": 0.0644989013671875,
+      "mean_laplacian_sharpness": 0.008869925203422705,
+      "mean_luminance_std": 0.20824276407559714,
+      "mean_mae": 0.0451376773416996,
+      "mean_mean_luminance": 0.40494104226430255,
+      "mean_niqe": 4.225989659627278,
+      "mean_psnr": 25.19204330444336,
+      "mean_rgb_channel_imbalance": 0.027664293845494587,
+      "mean_ssim": 0.9089833299318949
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 2.3308185297423504e-05,
+      "std_brisque": 0.32350945156151745,
+      "std_dark_pixel_ratio": 0.028492261675996198,
+      "std_laplacian_sharpness": 0.0003036703047319848,
+      "std_luminance_std": 0.0023557249217151313,
+      "std_mae": 0.003289991431954568,
+      "std_mean_luminance": 0.01207737829643835,
+      "std_niqe": 0.1694477998934341,
+      "std_psnr": 0.47710955218306367,
+      "std_rgb_channel_imbalance": 0.004810598305844087,
+      "std_ssim": 0.003966777672239947
+    }
+  },
+  {
+    "failure_type": "good_enhancement",
+    "rank": 7,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/546.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/546.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.8379759519038076,
+    "score_components": {
+      "high_ssim": 0.7855711422845691,
+      "high_psnr": 0.9679358717434869,
+      "low_mae": 0.9839679358717435,
+      "low_niqe": 0.7434869739478958,
+      "low_brisque": 0.8316633266533067,
+      "low_dark_pixel_ratio": 0.5671342685370742,
+      "low_bright_clipping_ratio": 0.6933867735470942,
+      "low_rgb_channel_imbalance": 0.6132264529058116
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 20.971537272135418,
+      "mean_dark_pixel_ratio": 0.0049896240234375,
+      "mean_laplacian_sharpness": 0.009240645915269852,
+      "mean_luminance_std": 0.16291074454784393,
+      "mean_mae": 0.024852818499008816,
+      "mean_mean_luminance": 0.5445008476575216,
+      "mean_niqe": 5.759945869445801,
+      "mean_psnr": 29.00388526916504,
+      "mean_rgb_channel_imbalance": 0.03687445322672526,
+      "mean_ssim": 0.9277383685112
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 4.947968511477114,
+      "std_dark_pixel_ratio": 0.0036777480313072357,
+      "std_laplacian_sharpness": 0.0007742245922266938,
+      "std_luminance_std": 0.0014177838868293018,
+      "std_mae": 0.0011864093692961577,
+      "std_mean_luminance": 0.010669292435513737,
+      "std_niqe": 0.6189761668642964,
+      "std_psnr": 0.24055257711363676,
+      "std_rgb_channel_imbalance": 0.011214218228709083,
+      "std_ssim": 0.0007654015318167491
+    }
+  },
+  {
+    "failure_type": "good_enhancement",
+    "rank": 8,
+    "dataset": "lol_v2_synthetic",
+    "input_path": "data/preprocessed/lol_v2_synthetic/test/low/r15919202t.png",
+    "target_path": "data/preprocessed/lol_v2_synthetic/test/normal/r15919202t.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.8247474747474748,
+    "score_components": {
+      "high_ssim": 0.8787878787878788,
+      "high_psnr": 0.898989898989899,
+      "low_mae": 0.8484848484848485,
+      "low_niqe": 0.7474747474747474,
+      "low_brisque": 0.8686868686868687,
+      "low_dark_pixel_ratio": 0.9191919191919192,
+      "low_bright_clipping_ratio": 0.7777777777777778,
+      "low_rgb_channel_imbalance": 0.18181818181818177
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 23.221211751302082,
+      "mean_dark_pixel_ratio": 0.0151824951171875,
+      "mean_laplacian_sharpness": 0.008024136225382486,
+      "mean_luminance_std": 0.1866374264160792,
+      "mean_mae": 0.07194861272970836,
+      "mean_mean_luminance": 0.5089209874471029,
+      "mean_niqe": 5.607473373413086,
+      "mean_psnr": 21.473004659016926,
+      "mean_rgb_channel_imbalance": 0.07587075233459473,
+      "mean_ssim": 0.8631571928660074
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 2.6696643867967182,
+      "std_dark_pixel_ratio": 0.003900792362419633,
+      "std_laplacian_sharpness": 0.00023731337901791006,
+      "std_luminance_std": 0.00299907128388054,
+      "std_mae": 0.025594542302539835,
+      "std_mean_luminance": 0.0374444575292398,
+      "std_niqe": 0.30919969162085964,
+      "std_psnr": 2.5736397409929777,
+      "std_rgb_channel_imbalance": 0.012443871308545037,
+      "std_ssim": 0.01308153388407228
+    }
+  },
+  {
+    "failure_type": "good_enhancement",
+    "rank": 9,
+    "dataset": "lol_v1",
+    "input_path": "data/preprocessed/lol_v1/our485/low/541.png",
+    "target_path": "data/preprocessed/lol_v1/our485/high/541.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.821192384769539,
+    "score_components": {
+      "high_ssim": 0.9478957915831663,
+      "high_psnr": 0.8917835671342685,
+      "low_mae": 0.8797595190380761,
+      "low_niqe": 0.6292585170340681,
+      "low_brisque": 0.7675350701402806,
+      "low_dark_pixel_ratio": 0.9468937875751503,
+      "low_bright_clipping_ratio": 0.6933867735470942,
+      "low_rgb_channel_imbalance": 0.1643286573146293
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 0.0,
+      "mean_brisque": 23.079691569010418,
+      "mean_dark_pixel_ratio": 1.52587890625e-05,
+      "mean_laplacian_sharpness": 0.006754562413940827,
+      "mean_luminance_std": 0.09077682097752889,
+      "mean_mae": 0.035095224156975746,
+      "mean_mean_luminance": 0.5754926204681396,
+      "mean_niqe": 6.079097906748454,
+      "mean_psnr": 27.246321360270183,
+      "mean_rgb_channel_imbalance": 0.10268527269363403,
+      "mean_ssim": 0.9467670917510986
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 0.0,
+      "std_brisque": 7.5384976677802955,
+      "std_dark_pixel_ratio": 2.6428997918226276e-05,
+      "std_laplacian_sharpness": 0.0006287080203209304,
+      "std_luminance_std": 0.007770762075892139,
+      "std_mae": 0.003993008892358879,
+      "std_mean_luminance": 0.009104902351518777,
+      "std_niqe": 0.7825336303013911,
+      "std_psnr": 0.9537513037130728,
+      "std_rgb_channel_imbalance": 0.008577941634070538,
+      "std_ssim": 0.0023349753196193323
+    }
+  },
+  {
+    "failure_type": "good_enhancement",
+    "rank": 10,
+    "dataset": "lol_v2_synthetic",
+    "input_path": "data/preprocessed/lol_v2_synthetic/test/low/r165355c0t.png",
+    "target_path": "data/preprocessed/lol_v2_synthetic/test/normal/r165355c0t.png",
+    "category": "",
+    "illumination_level": "",
+    "candidate_score": 0.8176767676767677,
+    "score_components": {
+      "high_ssim": 0.9595959595959596,
+      "high_psnr": 0.9090909090909091,
+      "low_mae": 0.9191919191919192,
+      "low_niqe": 0.8787878787878788,
+      "low_brisque": 0.19191919191919193,
+      "low_dark_pixel_ratio": 0.8585858585858586,
+      "low_bright_clipping_ratio": 0.505050505050505,
+      "low_rgb_channel_imbalance": 0.7373737373737373
+    },
+    "metrics_mean": {
+      "mean_bright_clipping_ratio": 8.138020833333333e-05,
+      "mean_brisque": 42.443216959635414,
+      "mean_dark_pixel_ratio": 0.025634765625,
+      "mean_laplacian_sharpness": 0.009960012199978033,
+      "mean_luminance_std": 0.14839133123556772,
+      "mean_mae": 0.06565963601072629,
+      "mean_mean_luminance": 0.520164946715037,
+      "mean_niqe": 5.0042182604471845,
+      "mean_psnr": 21.573715845743816,
+      "mean_rgb_channel_imbalance": 0.03372565905253092,
+      "mean_ssim": 0.9001287817955017
+    },
+    "metrics_std": {
+      "std_bright_clipping_ratio": 8.809665972742092e-06,
+      "std_brisque": 2.5601529017870726,
+      "std_dark_pixel_ratio": 0.002272637711597207,
+      "std_laplacian_sharpness": 2.905840016611823e-05,
+      "std_luminance_std": 0.008209587605563715,
+      "std_mae": 0.005207811380832007,
+      "std_mean_luminance": 0.003987847767736573,
+      "std_niqe": 0.4694662337770647,
+      "std_psnr": 0.613224765853383,
+      "std_rgb_channel_imbalance": 0.016324538281734528,
+      "std_ssim": 0.013921526864648167
+    }
+  }
+]
