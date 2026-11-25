@@ -2,6 +2,10 @@
 
 This **PyTorch** computer-vision project compares four low-light image enhancement model families under a common experimental protocol, with validation-based model selection and cross-dataset evaluation. The code implements dataset ingestion, offline preprocessing, training, checkpointing, evaluation, JSONL logging and analysis of experimental results.
 
+![Illustrative comparison of low-light and enhanced images](docs/images/low-light-enhancement-cross-dataset.png)
+
+*Illustrative example of low-light image enhancement, not an experimental model output.*
+
 Developed at **[Politecnico di Bari](https://www.poliba.it/en/laurea-magistrale-ingegneria-informatica)** as part of the **Master's Degree in Computer Engineering**, **Artificial Intelligence and Data Science** curriculum, for the *Deep Learning* course (Academic Year **2023–2024**).
 
 > **Data and publishing:** Dataset photographs are acquired separately from the original publishers. The repository includes code, experimental logs, result summaries, the university report, and its LaTeX sources; raw and preprocessed dataset photographs are not included. Publishing per-image metadata or report figures may require additional rights clearance. See [dataset sources](THIRD_PARTY_DATASETS.md) and [publication rights](docs/publication-rights.md). Historical result values are reported as recorded, not as newly rerun experiments.
